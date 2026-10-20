@@ -1,0 +1,130 @@
+{
+ "seed": 20261022,
+ "n_holdout_cases": 9,
+ "overall_design": {
+  "n": 244,
+  "recovered_rate": 0.418,
+  "net_mean": 4240.6,
+  "net_median": 4069.5,
+  "norec_net_mean": 5467.1,
+  "rec_net_mean": 2533.0,
+  "label": "design all"
+ },
+ "overall_holdout": {
+  "n": 67,
+  "recovered_rate": 0.493,
+  "net_mean": 4588.9,
+  "net_median": 4035,
+  "norec_net_mean": 6181.0,
+  "rec_net_mean": 2948.5,
+  "label": "holdout all"
+ },
+ "design_by_size_bucket": {
+  "4-10K": {
+   "n": 244,
+   "recovered_rate": 0.418,
+   "net_mean": 4240.6,
+   "net_median": 4069.5,
+   "norec_net_mean": 5467.1,
+   "rec_net_mean": 2533.0,
+   "label": "4-10K"
+  }
+ },
+ "design_by_family": {
+  "file-review": {
+   "n": 67,
+   "recovered_rate": 0.522,
+   "net_mean": 4580.7,
+   "net_median": 3787,
+   "norec_net_mean": 6268.4,
+   "rec_net_mean": 3037.7,
+   "label": "file-review"
+  },
+  "module-analysis": {
+   "n": 170,
+   "recovered_rate": 0.376,
+   "net_mean": 4155.0,
+   "net_median": 4093.0,
+   "norec_net_mean": 5265.9,
+   "rec_net_mean": 2315.1,
+   "label": "module-analysis"
+  },
+  "mutation-testfix": {
+   "n": 7,
+   "recovered_rate": 0.429,
+   "net_mean": 3062.6,
+   "net_median": 3531,
+   "norec_net_mean": 4391,
+   "rec_net_mean": 1291.3,
+   "label": "mutation-testfix"
+  }
+ },
+ "design_by_stratum": {
+  "None": {
+   "n": 22,
+   "recovered_rate": 0.455,
+   "net_mean": 3785.2,
+   "net_median": 3863.5,
+   "norec_net_mean": 5110.7,
+   "rec_net_mean": 2194.7,
+   "label": "None"
+  },
+  "high": {
+   "n": 161,
+   "recovered_rate": 0.385,
+   "net_mean": 4151.0,
+   "net_median": 4093,
+   "norec_net_mean": 5299.4,
+   "rec_net_mean": 2317.4,
+   "label": "high"
+  },
+  "normal": {
+   "n": 61,
+   "recovered_rate": 0.492,
+   "net_mean": 4641.0,
+   "net_median": 3791,
+   "norec_net_mean": 6140.8,
+   "rec_net_mean": 3091.2,
+   "label": "normal"
+  }
+ },
+ "design_by_ext": {
+  ".j": {
+   "n": 1,
+   "recovered_rate": 0.0,
+   "net_mean": 4106,
+   "net_median": 4106,
+   "norec_net_mean": 4106,
+   "rec_net_mean": null,
+   "label": ".j"
+  },
+  ".js": {
+   "n": 7,
+   "recovered_rate": 0.143,
+   "net_mean": 5043.9,
+   "net_median": 5612,
+   "norec_net_mean": 5608.5,
+   "rec_net_mean": 1656,
+   "label": ".js"
+  },
+  ".txt": {
+   "n": 2,
+   "recovered_rate": 0.5,
+   "net_mean": 3961.5,
+   "net_median": 3961.5,
+   "norec_net_mean": 5752,
+   "rec_net_mean": 2171,
+   "label": ".txt"
+  },
+  "none": {
+   "n": 234,
+   "recovered_rate": 0.427,
+   "net_mean": 4219.5,
+   "net_median": 4060.5,
+   "norec_net_mean": 5468.8,
+   "rec_net_mean": 2545.3,
+   "label": "none"
+  }
+ },
+ "design_gate_search_top": []
+}

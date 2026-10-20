@@ -1,0 +1,157 @@
+{
+ "verifier": {
+  "verdict": "PASS",
+  "checks": {
+   "C1_pairing_complete": true,
+   "C2_arm_equivalence": true,
+   "C3_marker_discipline": true,
+   "C4_success_parity": true,
+   "C5_provenance_ledger": true
+  },
+  "evidence": {
+   "C1": {
+    "records": 200,
+    "cases": 100,
+    "missing": [],
+    "dups": []
+   },
+   "C2": [],
+   "C3": {
+    "B_arm_leaks": [],
+    "T_completed_without_rds_calls": []
+   },
+   "C4": {
+    "B_success_rate": 0.81,
+    "T_success_rate": 0.8,
+    "B_pass_T_fail": [
+     "E-FIL077",
+     "B-SPEC08",
+     "E-FIL094",
+     "E-FIL085",
+     "B-SPEC02"
+    ],
+    "B_fail_T_pass": [
+     "D-MODTR04",
+     "E-FIL099",
+     "E-FIL056",
+     "C-ENT04"
+    ]
+   },
+   "C5": {
+    "bad_provenance": [],
+    "ledger_1to1": true,
+    "attempts_gt0": 0
+   }
+  }
+ },
+ "analysis": {
+  "n_pairs": 100,
+  "primary_input_reduction": -0.0708,
+  "flow_reduction": -0.0526,
+  "totals": {
+   "B_input": 1819150,
+   "T_input": 1947978,
+   "B_flow": 12406931,
+   "T_flow": 13059137
+  },
+  "paired_flow_delta": {
+   "mean": -0.4225,
+   "median": -0.0867,
+   "p25": -0.6423,
+   "p75": 0.1885,
+   "win_loss_tie": [
+    35,
+    62,
+    3
+   ],
+   "bootstrap95_mean": [
+    -0.6549,
+    -0.2281
+   ]
+  },
+  "cache_read": {
+   "B": 10274112,
+   "T": 10744064
+  },
+  "output": {
+   "B": 144318,
+   "T": 159942
+  },
+  "wall_s": {
+   "B": 7956.7,
+   "T": 10417.8
+  },
+  "rds_telemetry_T": {
+   "cases_with_compression": 64,
+   "compressed_events": 542,
+   "matched_chars_total": 561454
+  },
+  "per_family": {
+   "enterprise-analysis": {
+    "n": 3,
+    "flow_reduction": -0.3875,
+    "input_reduction": -1.4936,
+    "B_pass": 2,
+    "T_pass": 3,
+    "rds_compressed_mean": 13.67,
+    "win_loss_tie": [
+     1,
+     2,
+     0
+    ]
+   },
+   "file-review": {
+    "n": 48,
+    "flow_reduction": -0.3767,
+    "input_reduction": -0.2335,
+    "B_pass": 46,
+    "T_pass": 45,
+    "rds_compressed_mean": 1.06,
+    "win_loss_tie": [
+     13,
+     33,
+     2
+    ]
+   },
+   "module-analysis": {
+    "n": 24,
+    "flow_reduction": 0.0484,
+    "input_reduction": 0.0169,
+    "B_pass": 14,
+    "T_pass": 15,
+    "rds_compressed_mean": 12.12,
+    "win_loss_tie": [
+     12,
+     12,
+     0
+    ]
+   },
+   "mutation-testfix": {
+    "n": 15,
+    "flow_reduction": 0.0546,
+    "input_reduction": 0.0095,
+    "B_pass": 15,
+    "T_pass": 15,
+    "rds_compressed_mean": 7.93,
+    "win_loss_tie": [
+     6,
+     8,
+     1
+    ]
+   },
+   "spec-contract": {
+    "n": 10,
+    "flow_reduction": -0.1633,
+    "input_reduction": 0.096,
+    "B_pass": 4,
+    "T_pass": 2,
+    "rds_compressed_mean": 4,
+    "win_loss_tie": [
+     3,
+     7,
+     0
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "stored_views": 311,
+ "views_with_recovery": 135,
+ "views_never_recovered": 176,
+ "recovery_total": 137,
+ "recovered_chars_total": 352804,
+ "saved_chars_total": 1762154,
+ "runs_T": 70,
+ "b_reread_events": 24,
+ "recovery_distance_median": 4
+}

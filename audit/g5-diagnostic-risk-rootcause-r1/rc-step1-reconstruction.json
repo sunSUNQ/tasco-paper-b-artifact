@@ -1,0 +1,5492 @@
+[
+ {
+  "sample_id": "S01",
+  "evidence_run": "a302a9c17cfbaba5",
+  "marker_sha16": "5166823c3001d5b3",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 213,
+   "store_labels": 212,
+   "label_mismatches": [],
+   "n_raw_lines": 218,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    198
+   ],
+   "marker_chars": 5659,
+   "marker_sha16": "5166823c3001d5b3",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    26,
+    27,
+    28,
+    50,
+    51,
+    60,
+    71,
+    72,
+    73,
+    95,
+    96,
+    105,
+    116,
+    117,
+    118,
+    140,
+    141,
+    150,
+    161,
+    162,
+    163,
+    185,
+    186
+   ],
+   "tail_labels": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    195
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   26,
+   27,
+   28,
+   50,
+   51,
+   60,
+   71,
+   72,
+   73,
+   95,
+   96,
+   105,
+   116,
+   117,
+   118,
+   140,
+   141,
+   150,
+   161,
+   162,
+   163,
+   185,
+   186
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   55,
+   100,
+   145,
+   190
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    34,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    47,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    55,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    79,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    92,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    100,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    124,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    137,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    145,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    169,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    182,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    190,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S02",
+  "evidence_run": "a302a9c17cfbaba5",
+  "marker_sha16": "5166823c3001d5b3",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 213,
+   "store_labels": 212,
+   "label_mismatches": [],
+   "n_raw_lines": 218,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    198
+   ],
+   "marker_chars": 5659,
+   "marker_sha16": "5166823c3001d5b3",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    26,
+    27,
+    28,
+    50,
+    51,
+    60,
+    71,
+    72,
+    73,
+    95,
+    96,
+    105,
+    116,
+    117,
+    118,
+    140,
+    141,
+    150,
+    161,
+    162,
+    163,
+    185,
+    186
+   ],
+   "tail_labels": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    195
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   26,
+   27,
+   28,
+   50,
+   51,
+   60,
+   71,
+   72,
+   73,
+   95,
+   96,
+   105,
+   116,
+   117,
+   118,
+   140,
+   141,
+   150,
+   161,
+   162,
+   163,
+   185,
+   186
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   55,
+   100,
+   145,
+   190
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    34,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    47,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    55,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    79,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    92,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    100,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    124,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    137,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    145,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    169,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    182,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    190,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S03",
+  "evidence_run": "a302a9c17cfbaba5",
+  "marker_sha16": "5166823c3001d5b3",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 213,
+   "store_labels": 212,
+   "label_mismatches": [],
+   "n_raw_lines": 218,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    198
+   ],
+   "marker_chars": 5659,
+   "marker_sha16": "5166823c3001d5b3",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    26,
+    27,
+    28,
+    50,
+    51,
+    60,
+    71,
+    72,
+    73,
+    95,
+    96,
+    105,
+    116,
+    117,
+    118,
+    140,
+    141,
+    150,
+    161,
+    162,
+    163,
+    185,
+    186
+   ],
+   "tail_labels": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    195
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   26,
+   27,
+   28,
+   50,
+   51,
+   60,
+   71,
+   72,
+   73,
+   95,
+   96,
+   105,
+   116,
+   117,
+   118,
+   140,
+   141,
+   150,
+   161,
+   162,
+   163,
+   185,
+   186
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   55,
+   100,
+   145,
+   190
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    34,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    47,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    55,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    79,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    92,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    100,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    124,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    137,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    145,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    169,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    182,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    190,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S04",
+  "evidence_run": "a302a9c17cfbaba5",
+  "marker_sha16": "5166823c3001d5b3",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 213,
+   "store_labels": 212,
+   "label_mismatches": [],
+   "n_raw_lines": 218,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    198
+   ],
+   "marker_chars": 5659,
+   "marker_sha16": "5166823c3001d5b3",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    26,
+    27,
+    28,
+    50,
+    51,
+    60,
+    71,
+    72,
+    73,
+    95,
+    96,
+    105,
+    116,
+    117,
+    118,
+    140,
+    141,
+    150,
+    161,
+    162,
+    163,
+    185,
+    186
+   ],
+   "tail_labels": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    195
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   26,
+   27,
+   28,
+   50,
+   51,
+   60,
+   71,
+   72,
+   73,
+   95,
+   96,
+   105,
+   116,
+   117,
+   118,
+   140,
+   141,
+   150,
+   161,
+   162,
+   163,
+   185,
+   186
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   55,
+   100,
+   145,
+   190
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    34,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    47,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    55,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    79,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    92,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    100,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    124,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    137,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    145,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    169,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    182,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    190,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S05",
+  "evidence_run": "a302a9c17cfbaba5",
+  "marker_sha16": "5166823c3001d5b3",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 213,
+   "store_labels": 212,
+   "label_mismatches": [],
+   "n_raw_lines": 218,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    198
+   ],
+   "marker_chars": 5659,
+   "marker_sha16": "5166823c3001d5b3",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    26,
+    27,
+    28,
+    50,
+    51,
+    60,
+    71,
+    72,
+    73,
+    95,
+    96,
+    105,
+    116,
+    117,
+    118,
+    140,
+    141,
+    150,
+    161,
+    162,
+    163,
+    185,
+    186
+   ],
+   "tail_labels": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    195
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   26,
+   27,
+   28,
+   50,
+   51,
+   60,
+   71,
+   72,
+   73,
+   95,
+   96,
+   105,
+   116,
+   117,
+   118,
+   140,
+   141,
+   150,
+   161,
+   162,
+   163,
+   185,
+   186
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   55,
+   100,
+   145,
+   190
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    34,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    47,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    55,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    79,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    92,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    100,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    124,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    137,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    145,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    169,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    182,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    190,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S06",
+  "evidence_run": "a302a9c17cfbaba5",
+  "marker_sha16": "5166823c3001d5b3",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 213,
+   "store_labels": 212,
+   "label_mismatches": [],
+   "n_raw_lines": 218,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    198
+   ],
+   "marker_chars": 5659,
+   "marker_sha16": "5166823c3001d5b3",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    26,
+    27,
+    28,
+    50,
+    51,
+    60,
+    71,
+    72,
+    73,
+    95,
+    96,
+    105,
+    116,
+    117,
+    118,
+    140,
+    141,
+    150,
+    161,
+    162,
+    163,
+    185,
+    186
+   ],
+   "tail_labels": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    195
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   26,
+   27,
+   28,
+   50,
+   51,
+   60,
+   71,
+   72,
+   73,
+   95,
+   96,
+   105,
+   116,
+   117,
+   118,
+   140,
+   141,
+   150,
+   161,
+   162,
+   163,
+   185,
+   186
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   55,
+   100,
+   145,
+   190
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    34,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    47,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    55,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    79,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    92,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    100,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    124,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    137,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    145,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    169,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    182,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    190,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S07",
+  "evidence_run": "a302a9c17cfbaba5",
+  "marker_sha16": "5166823c3001d5b3",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 213,
+   "store_labels": 212,
+   "label_mismatches": [],
+   "n_raw_lines": 218,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    198
+   ],
+   "marker_chars": 5659,
+   "marker_sha16": "5166823c3001d5b3",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    26,
+    27,
+    28,
+    50,
+    51,
+    60,
+    71,
+    72,
+    73,
+    95,
+    96,
+    105,
+    116,
+    117,
+    118,
+    140,
+    141,
+    150,
+    161,
+    162,
+    163,
+    185,
+    186
+   ],
+   "tail_labels": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    195
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   26,
+   27,
+   28,
+   50,
+   51,
+   60,
+   71,
+   72,
+   73,
+   95,
+   96,
+   105,
+   116,
+   117,
+   118,
+   140,
+   141,
+   150,
+   161,
+   162,
+   163,
+   185,
+   186
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   55,
+   100,
+   145,
+   190
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    34,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    47,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    55,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    79,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    92,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    100,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    124,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    137,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    145,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    169,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    182,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    190,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S08",
+  "evidence_run": "a302a9c17cfbaba5",
+  "marker_sha16": "5166823c3001d5b3",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 213,
+   "store_labels": 212,
+   "label_mismatches": [],
+   "n_raw_lines": 218,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    198
+   ],
+   "marker_chars": 5659,
+   "marker_sha16": "5166823c3001d5b3",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    26,
+    27,
+    28,
+    50,
+    51,
+    60,
+    71,
+    72,
+    73,
+    95,
+    96,
+    105,
+    116,
+    117,
+    118,
+    140,
+    141,
+    150,
+    161,
+    162,
+    163,
+    185,
+    186
+   ],
+   "tail_labels": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    195
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   26,
+   27,
+   28,
+   50,
+   51,
+   60,
+   71,
+   72,
+   73,
+   95,
+   96,
+   105,
+   116,
+   117,
+   118,
+   140,
+   141,
+   150,
+   161,
+   162,
+   163,
+   185,
+   186
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   55,
+   100,
+   145,
+   190
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    34,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    47,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    55,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    79,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    92,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    100,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    124,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    137,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    145,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    169,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    182,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    190,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S09",
+  "evidence_run": "a302a9c17cfbaba5",
+  "marker_sha16": "5166823c3001d5b3",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 213,
+   "store_labels": 212,
+   "label_mismatches": [],
+   "n_raw_lines": 218,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    198
+   ],
+   "marker_chars": 5659,
+   "marker_sha16": "5166823c3001d5b3",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    26,
+    27,
+    28,
+    50,
+    51,
+    60,
+    71,
+    72,
+    73,
+    95,
+    96,
+    105,
+    116,
+    117,
+    118,
+    140,
+    141,
+    150,
+    161,
+    162,
+    163,
+    185,
+    186
+   ],
+   "tail_labels": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    195
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   26,
+   27,
+   28,
+   50,
+   51,
+   60,
+   71,
+   72,
+   73,
+   95,
+   96,
+   105,
+   116,
+   117,
+   118,
+   140,
+   141,
+   150,
+   161,
+   162,
+   163,
+   185,
+   186
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   55,
+   100,
+   145,
+   190
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    34,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    47,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    55,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    79,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    92,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    100,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    124,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    137,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    145,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    169,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    182,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    190,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S10",
+  "evidence_run": "a302a9c17cfbaba5",
+  "marker_sha16": "5166823c3001d5b3",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 213,
+   "store_labels": 212,
+   "label_mismatches": [],
+   "n_raw_lines": 218,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    198
+   ],
+   "marker_chars": 5659,
+   "marker_sha16": "5166823c3001d5b3",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    26,
+    27,
+    28,
+    50,
+    51,
+    60,
+    71,
+    72,
+    73,
+    95,
+    96,
+    105,
+    116,
+    117,
+    118,
+    140,
+    141,
+    150,
+    161,
+    162,
+    163,
+    185,
+    186
+   ],
+   "tail_labels": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    195
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   26,
+   27,
+   28,
+   50,
+   51,
+   60,
+   71,
+   72,
+   73,
+   95,
+   96,
+   105,
+   116,
+   117,
+   118,
+   140,
+   141,
+   150,
+   161,
+   162,
+   163,
+   185,
+   186
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   55,
+   100,
+   145,
+   190
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    34,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    47,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    55,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    79,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    92,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    100,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    124,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    137,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    145,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    169,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    182,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    190,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S11",
+  "evidence_run": "ce499899267508a5",
+  "marker_sha16": "0f7965aed9ab2c13",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 213,
+   "store_labels": 212,
+   "label_mismatches": [],
+   "n_raw_lines": 218,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    198
+   ],
+   "marker_chars": 5659,
+   "marker_sha16": "0f7965aed9ab2c13",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    26,
+    27,
+    28,
+    50,
+    51,
+    60,
+    71,
+    72,
+    73,
+    95,
+    96,
+    105,
+    116,
+    117,
+    118,
+    140,
+    141,
+    150,
+    161,
+    162,
+    163,
+    185,
+    186
+   ],
+   "tail_labels": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    195
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   26,
+   27,
+   28,
+   50,
+   51,
+   60,
+   71,
+   72,
+   73,
+   95,
+   96,
+   105,
+   116,
+   117,
+   118,
+   140,
+   141,
+   150,
+   161,
+   162,
+   163,
+   185,
+   186
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   55,
+   100,
+   145,
+   190
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    34,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    47,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    55,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    79,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    92,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    100,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    124,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    137,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    145,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    169,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    182,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    190,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S12",
+  "evidence_run": "ce499899267508a5",
+  "marker_sha16": "0f7965aed9ab2c13",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 213,
+   "store_labels": 212,
+   "label_mismatches": [],
+   "n_raw_lines": 218,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    198
+   ],
+   "marker_chars": 5659,
+   "marker_sha16": "0f7965aed9ab2c13",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    26,
+    27,
+    28,
+    50,
+    51,
+    60,
+    71,
+    72,
+    73,
+    95,
+    96,
+    105,
+    116,
+    117,
+    118,
+    140,
+    141,
+    150,
+    161,
+    162,
+    163,
+    185,
+    186
+   ],
+   "tail_labels": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    195
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   26,
+   27,
+   28,
+   50,
+   51,
+   60,
+   71,
+   72,
+   73,
+   95,
+   96,
+   105,
+   116,
+   117,
+   118,
+   140,
+   141,
+   150,
+   161,
+   162,
+   163,
+   185,
+   186
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   55,
+   100,
+   145,
+   190
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    34,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    47,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    55,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    79,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    92,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    100,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    124,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    137,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    145,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    169,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    182,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    190,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S13",
+  "evidence_run": "ce499899267508a5",
+  "marker_sha16": "0f7965aed9ab2c13",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 213,
+   "store_labels": 212,
+   "label_mismatches": [],
+   "n_raw_lines": 218,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    198
+   ],
+   "marker_chars": 5659,
+   "marker_sha16": "0f7965aed9ab2c13",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    26,
+    27,
+    28,
+    50,
+    51,
+    60,
+    71,
+    72,
+    73,
+    95,
+    96,
+    105,
+    116,
+    117,
+    118,
+    140,
+    141,
+    150,
+    161,
+    162,
+    163,
+    185,
+    186
+   ],
+   "tail_labels": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    195
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   26,
+   27,
+   28,
+   50,
+   51,
+   60,
+   71,
+   72,
+   73,
+   95,
+   96,
+   105,
+   116,
+   117,
+   118,
+   140,
+   141,
+   150,
+   161,
+   162,
+   163,
+   185,
+   186
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   55,
+   100,
+   145,
+   190
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    34,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    47,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    55,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    79,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    92,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    100,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    124,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    137,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    145,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    169,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    182,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    190,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S14",
+  "evidence_run": "ce499899267508a5",
+  "marker_sha16": "0f7965aed9ab2c13",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 213,
+   "store_labels": 212,
+   "label_mismatches": [],
+   "n_raw_lines": 218,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    198
+   ],
+   "marker_chars": 5659,
+   "marker_sha16": "0f7965aed9ab2c13",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    26,
+    27,
+    28,
+    50,
+    51,
+    60,
+    71,
+    72,
+    73,
+    95,
+    96,
+    105,
+    116,
+    117,
+    118,
+    140,
+    141,
+    150,
+    161,
+    162,
+    163,
+    185,
+    186
+   ],
+   "tail_labels": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    195
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   26,
+   27,
+   28,
+   50,
+   51,
+   60,
+   71,
+   72,
+   73,
+   95,
+   96,
+   105,
+   116,
+   117,
+   118,
+   140,
+   141,
+   150,
+   161,
+   162,
+   163,
+   185,
+   186
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   55,
+   100,
+   145,
+   190
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    34,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    47,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    55,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    79,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    92,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    100,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    124,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    137,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    145,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    169,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    182,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    190,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S15",
+  "evidence_run": "ce499899267508a5",
+  "marker_sha16": "0f7965aed9ab2c13",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 213,
+   "store_labels": 212,
+   "label_mismatches": [],
+   "n_raw_lines": 218,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    198
+   ],
+   "marker_chars": 5659,
+   "marker_sha16": "0f7965aed9ab2c13",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    26,
+    27,
+    28,
+    50,
+    51,
+    60,
+    71,
+    72,
+    73,
+    95,
+    96,
+    105,
+    116,
+    117,
+    118,
+    140,
+    141,
+    150,
+    161,
+    162,
+    163,
+    185,
+    186
+   ],
+   "tail_labels": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    195
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   26,
+   27,
+   28,
+   50,
+   51,
+   60,
+   71,
+   72,
+   73,
+   95,
+   96,
+   105,
+   116,
+   117,
+   118,
+   140,
+   141,
+   150,
+   161,
+   162,
+   163,
+   185,
+   186
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   55,
+   100,
+   145,
+   190
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    34,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    47,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    55,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    79,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    92,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    100,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    124,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    137,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    145,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    169,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    182,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    190,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S16",
+  "evidence_run": "ce499899267508a5",
+  "marker_sha16": "0f7965aed9ab2c13",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 213,
+   "store_labels": 212,
+   "label_mismatches": [],
+   "n_raw_lines": 218,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    198
+   ],
+   "marker_chars": 5659,
+   "marker_sha16": "0f7965aed9ab2c13",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    26,
+    27,
+    28,
+    50,
+    51,
+    60,
+    71,
+    72,
+    73,
+    95,
+    96,
+    105,
+    116,
+    117,
+    118,
+    140,
+    141,
+    150,
+    161,
+    162,
+    163,
+    185,
+    186
+   ],
+   "tail_labels": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    195
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   26,
+   27,
+   28,
+   50,
+   51,
+   60,
+   71,
+   72,
+   73,
+   95,
+   96,
+   105,
+   116,
+   117,
+   118,
+   140,
+   141,
+   150,
+   161,
+   162,
+   163,
+   185,
+   186
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   55,
+   100,
+   145,
+   190
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    34,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    47,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    55,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    79,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    92,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    100,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    124,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    137,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    145,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    169,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    182,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    190,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S17",
+  "evidence_run": "ce499899267508a5",
+  "marker_sha16": "0f7965aed9ab2c13",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 213,
+   "store_labels": 212,
+   "label_mismatches": [],
+   "n_raw_lines": 218,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    198
+   ],
+   "marker_chars": 5659,
+   "marker_sha16": "0f7965aed9ab2c13",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    26,
+    27,
+    28,
+    50,
+    51,
+    60,
+    71,
+    72,
+    73,
+    95,
+    96,
+    105,
+    116,
+    117,
+    118,
+    140,
+    141,
+    150,
+    161,
+    162,
+    163,
+    185,
+    186
+   ],
+   "tail_labels": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    195
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   26,
+   27,
+   28,
+   50,
+   51,
+   60,
+   71,
+   72,
+   73,
+   95,
+   96,
+   105,
+   116,
+   117,
+   118,
+   140,
+   141,
+   150,
+   161,
+   162,
+   163,
+   185,
+   186
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   55,
+   100,
+   145,
+   190
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    34,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    47,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    55,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    79,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    92,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    100,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    124,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    137,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    145,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    169,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    182,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    190,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S18",
+  "evidence_run": "ce499899267508a5",
+  "marker_sha16": "0f7965aed9ab2c13",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 213,
+   "store_labels": 212,
+   "label_mismatches": [],
+   "n_raw_lines": 218,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    198
+   ],
+   "marker_chars": 5659,
+   "marker_sha16": "0f7965aed9ab2c13",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    26,
+    27,
+    28,
+    50,
+    51,
+    60,
+    71,
+    72,
+    73,
+    95,
+    96,
+    105,
+    116,
+    117,
+    118,
+    140,
+    141,
+    150,
+    161,
+    162,
+    163,
+    185,
+    186
+   ],
+   "tail_labels": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    195
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   26,
+   27,
+   28,
+   50,
+   51,
+   60,
+   71,
+   72,
+   73,
+   95,
+   96,
+   105,
+   116,
+   117,
+   118,
+   140,
+   141,
+   150,
+   161,
+   162,
+   163,
+   185,
+   186
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   55,
+   100,
+   145,
+   190
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    34,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    47,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    55,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    79,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    92,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    100,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    124,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    137,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    145,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    169,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    182,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    190,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S19",
+  "evidence_run": "ce499899267508a5",
+  "marker_sha16": "0f7965aed9ab2c13",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 213,
+   "store_labels": 212,
+   "label_mismatches": [],
+   "n_raw_lines": 218,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    198
+   ],
+   "marker_chars": 5659,
+   "marker_sha16": "0f7965aed9ab2c13",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    26,
+    27,
+    28,
+    50,
+    51,
+    60,
+    71,
+    72,
+    73,
+    95,
+    96,
+    105,
+    116,
+    117,
+    118,
+    140,
+    141,
+    150,
+    161,
+    162,
+    163,
+    185,
+    186
+   ],
+   "tail_labels": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    195
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   26,
+   27,
+   28,
+   50,
+   51,
+   60,
+   71,
+   72,
+   73,
+   95,
+   96,
+   105,
+   116,
+   117,
+   118,
+   140,
+   141,
+   150,
+   161,
+   162,
+   163,
+   185,
+   186
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   55,
+   100,
+   145,
+   190
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    34,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    47,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    55,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    79,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    92,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    100,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    124,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    137,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    145,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    169,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    182,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    190,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S20",
+  "evidence_run": "ce499899267508a5",
+  "marker_sha16": "0f7965aed9ab2c13",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 213,
+   "store_labels": 212,
+   "label_mismatches": [],
+   "n_raw_lines": 218,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    198
+   ],
+   "marker_chars": 5659,
+   "marker_sha16": "0f7965aed9ab2c13",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    26,
+    27,
+    28,
+    50,
+    51,
+    60,
+    71,
+    72,
+    73,
+    95,
+    96,
+    105,
+    116,
+    117,
+    118,
+    140,
+    141,
+    150,
+    161,
+    162,
+    163,
+    185,
+    186
+   ],
+   "tail_labels": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    195
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   26,
+   27,
+   28,
+   50,
+   51,
+   60,
+   71,
+   72,
+   73,
+   95,
+   96,
+   105,
+   116,
+   117,
+   118,
+   140,
+   141,
+   150,
+   161,
+   162,
+   163,
+   185,
+   186
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   55,
+   100,
+   145,
+   190
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    34,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    47,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    55,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    79,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    92,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    100,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    124,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    137,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    145,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    169,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    182,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    190,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S21",
+  "evidence_run": "ce499899267508a5",
+  "marker_sha16": "0f7965aed9ab2c13",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 213,
+   "store_labels": 212,
+   "label_mismatches": [],
+   "n_raw_lines": 218,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    198
+   ],
+   "marker_chars": 5659,
+   "marker_sha16": "0f7965aed9ab2c13",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    26,
+    27,
+    28,
+    50,
+    51,
+    60,
+    71,
+    72,
+    73,
+    95,
+    96,
+    105,
+    116,
+    117,
+    118,
+    140,
+    141,
+    150,
+    161,
+    162,
+    163,
+    185,
+    186
+   ],
+   "tail_labels": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    195
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   26,
+   27,
+   28,
+   50,
+   51,
+   60,
+   71,
+   72,
+   73,
+   95,
+   96,
+   105,
+   116,
+   117,
+   118,
+   140,
+   141,
+   150,
+   161,
+   162,
+   163,
+   185,
+   186
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   55,
+   100,
+   145,
+   190
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    34,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    47,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    55,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    79,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    92,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    100,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    124,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    137,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    145,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    169,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    182,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    190,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S22",
+  "evidence_run": "ce499899267508a5",
+  "marker_sha16": "0f7965aed9ab2c13",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 213,
+   "store_labels": 212,
+   "label_mismatches": [],
+   "n_raw_lines": 218,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    198
+   ],
+   "marker_chars": 5659,
+   "marker_sha16": "0f7965aed9ab2c13",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    26,
+    27,
+    28,
+    50,
+    51,
+    60,
+    71,
+    72,
+    73,
+    95,
+    96,
+    105,
+    116,
+    117,
+    118,
+    140,
+    141,
+    150,
+    161,
+    162,
+    163,
+    185,
+    186
+   ],
+   "tail_labels": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    195
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   26,
+   27,
+   28,
+   50,
+   51,
+   60,
+   71,
+   72,
+   73,
+   95,
+   96,
+   105,
+   116,
+   117,
+   118,
+   140,
+   141,
+   150,
+   161,
+   162,
+   163,
+   185,
+   186
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   55,
+   100,
+   145,
+   190
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    34,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    47,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    55,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    79,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    92,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    100,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    124,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    137,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    145,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    169,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    182,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    190,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S23",
+  "evidence_run": "ce499899267508a5",
+  "marker_sha16": "0f7965aed9ab2c13",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 213,
+   "store_labels": 212,
+   "label_mismatches": [],
+   "n_raw_lines": 218,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    198
+   ],
+   "marker_chars": 5659,
+   "marker_sha16": "0f7965aed9ab2c13",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    26,
+    27,
+    28,
+    50,
+    51,
+    60,
+    71,
+    72,
+    73,
+    95,
+    96,
+    105,
+    116,
+    117,
+    118,
+    140,
+    141,
+    150,
+    161,
+    162,
+    163,
+    185,
+    186
+   ],
+   "tail_labels": [
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    195
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   26,
+   27,
+   28,
+   50,
+   51,
+   60,
+   71,
+   72,
+   73,
+   95,
+   96,
+   105,
+   116,
+   117,
+   118,
+   140,
+   141,
+   150,
+   161,
+   162,
+   163,
+   185,
+   186
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   55,
+   100,
+   145,
+   190
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    34,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    47,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    55,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    79,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    92,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    100,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    124,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    137,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    145,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    169,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    182,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    190,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S24",
+  "evidence_run": "2e2bda501b5f1865",
+  "marker_sha16": "bd911b6f26b1d421",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 214,
+   "store_labels": 213,
+   "label_mismatches": [],
+   "n_raw_lines": 219,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    199
+   ],
+   "marker_chars": 5786,
+   "marker_sha16": "bd911b6f26b1d421",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    27,
+    28,
+    29,
+    51,
+    52,
+    61,
+    72,
+    73,
+    74,
+    96,
+    97,
+    106,
+    117,
+    118,
+    119,
+    141,
+    142,
+    151,
+    162,
+    163,
+    164,
+    186,
+    187
+   ],
+   "tail_labels": [
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    196
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   27,
+   28,
+   29,
+   51,
+   52,
+   61,
+   72,
+   73,
+   74,
+   96,
+   97,
+   106,
+   117,
+   118,
+   119,
+   141,
+   142,
+   151,
+   162,
+   163,
+   164,
+   186,
+   187
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   56,
+   101,
+   146,
+   191
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    35,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    48,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    56,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    80,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    93,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    101,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    125,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    138,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    146,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    170,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    183,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    191,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S25",
+  "evidence_run": "2e2bda501b5f1865",
+  "marker_sha16": "bd911b6f26b1d421",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 214,
+   "store_labels": 213,
+   "label_mismatches": [],
+   "n_raw_lines": 219,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    199
+   ],
+   "marker_chars": 5786,
+   "marker_sha16": "bd911b6f26b1d421",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    27,
+    28,
+    29,
+    51,
+    52,
+    61,
+    72,
+    73,
+    74,
+    96,
+    97,
+    106,
+    117,
+    118,
+    119,
+    141,
+    142,
+    151,
+    162,
+    163,
+    164,
+    186,
+    187
+   ],
+   "tail_labels": [
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    196
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   27,
+   28,
+   29,
+   51,
+   52,
+   61,
+   72,
+   73,
+   74,
+   96,
+   97,
+   106,
+   117,
+   118,
+   119,
+   141,
+   142,
+   151,
+   162,
+   163,
+   164,
+   186,
+   187
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   56,
+   101,
+   146,
+   191
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    35,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    48,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    56,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    80,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    93,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    101,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    125,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    138,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    146,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    170,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    183,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    191,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S26",
+  "evidence_run": "2e2bda501b5f1865",
+  "marker_sha16": "bd911b6f26b1d421",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 214,
+   "store_labels": 213,
+   "label_mismatches": [],
+   "n_raw_lines": 219,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    199
+   ],
+   "marker_chars": 5786,
+   "marker_sha16": "bd911b6f26b1d421",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    27,
+    28,
+    29,
+    51,
+    52,
+    61,
+    72,
+    73,
+    74,
+    96,
+    97,
+    106,
+    117,
+    118,
+    119,
+    141,
+    142,
+    151,
+    162,
+    163,
+    164,
+    186,
+    187
+   ],
+   "tail_labels": [
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    196
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   27,
+   28,
+   29,
+   51,
+   52,
+   61,
+   72,
+   73,
+   74,
+   96,
+   97,
+   106,
+   117,
+   118,
+   119,
+   141,
+   142,
+   151,
+   162,
+   163,
+   164,
+   186,
+   187
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   56,
+   101,
+   146,
+   191
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    35,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    48,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    56,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    80,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    93,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    101,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    125,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    138,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    146,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    170,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    183,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    191,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S27",
+  "evidence_run": "2e2bda501b5f1865",
+  "marker_sha16": "bd911b6f26b1d421",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 214,
+   "store_labels": 213,
+   "label_mismatches": [],
+   "n_raw_lines": 219,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    199
+   ],
+   "marker_chars": 5786,
+   "marker_sha16": "bd911b6f26b1d421",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    27,
+    28,
+    29,
+    51,
+    52,
+    61,
+    72,
+    73,
+    74,
+    96,
+    97,
+    106,
+    117,
+    118,
+    119,
+    141,
+    142,
+    151,
+    162,
+    163,
+    164,
+    186,
+    187
+   ],
+   "tail_labels": [
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    196
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   27,
+   28,
+   29,
+   51,
+   52,
+   61,
+   72,
+   73,
+   74,
+   96,
+   97,
+   106,
+   117,
+   118,
+   119,
+   141,
+   142,
+   151,
+   162,
+   163,
+   164,
+   186,
+   187
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   56,
+   101,
+   146,
+   191
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    35,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    48,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    56,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    80,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    93,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    101,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    125,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    138,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    146,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    170,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    183,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    191,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S28",
+  "evidence_run": "2e2bda501b5f1865",
+  "marker_sha16": "bd911b6f26b1d421",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 214,
+   "store_labels": 213,
+   "label_mismatches": [],
+   "n_raw_lines": 219,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    199
+   ],
+   "marker_chars": 5786,
+   "marker_sha16": "bd911b6f26b1d421",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    27,
+    28,
+    29,
+    51,
+    52,
+    61,
+    72,
+    73,
+    74,
+    96,
+    97,
+    106,
+    117,
+    118,
+    119,
+    141,
+    142,
+    151,
+    162,
+    163,
+    164,
+    186,
+    187
+   ],
+   "tail_labels": [
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    196
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   27,
+   28,
+   29,
+   51,
+   52,
+   61,
+   72,
+   73,
+   74,
+   96,
+   97,
+   106,
+   117,
+   118,
+   119,
+   141,
+   142,
+   151,
+   162,
+   163,
+   164,
+   186,
+   187
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   56,
+   101,
+   146,
+   191
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    35,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    48,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    56,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    80,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    93,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    101,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    125,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    138,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    146,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    170,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    183,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    191,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S29",
+  "evidence_run": "2e2bda501b5f1865",
+  "marker_sha16": "bd911b6f26b1d421",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 214,
+   "store_labels": 213,
+   "label_mismatches": [],
+   "n_raw_lines": 219,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    199
+   ],
+   "marker_chars": 5786,
+   "marker_sha16": "bd911b6f26b1d421",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    27,
+    28,
+    29,
+    51,
+    52,
+    61,
+    72,
+    73,
+    74,
+    96,
+    97,
+    106,
+    117,
+    118,
+    119,
+    141,
+    142,
+    151,
+    162,
+    163,
+    164,
+    186,
+    187
+   ],
+   "tail_labels": [
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    196
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   27,
+   28,
+   29,
+   51,
+   52,
+   61,
+   72,
+   73,
+   74,
+   96,
+   97,
+   106,
+   117,
+   118,
+   119,
+   141,
+   142,
+   151,
+   162,
+   163,
+   164,
+   186,
+   187
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   56,
+   101,
+   146,
+   191
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    35,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    48,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    56,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    80,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    93,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    101,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    125,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    138,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    146,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    170,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    183,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    191,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ },
+ {
+  "sample_id": "S30",
+  "evidence_run": "2e2bda501b5f1865",
+  "marker_sha16": "bd911b6f26b1d421",
+  "V2_replay_equals_C": true,
+  "V1_store_matches_repo": true,
+  "V1_detail": {
+   "g_lines": 214,
+   "store_labels": 213,
+   "label_mismatches": [],
+   "n_raw_lines": 219,
+   "first_label_raw_index": 3,
+   "envelope_offset": 3,
+   "trailing_newline_artifact": true
+  },
+  "V3": {
+   "marker_raw_range": [
+    21,
+    199
+   ],
+   "marker_chars": 5786,
+   "marker_sha16": "bd911b6f26b1d421",
+   "head_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "critical_labels": [
+    27,
+    28,
+    29,
+    51,
+    52,
+    61,
+    72,
+    73,
+    74,
+    96,
+    97,
+    106,
+    117,
+    118,
+    119,
+    141,
+    142,
+    151,
+    162,
+    163,
+    164,
+    186,
+    187
+   ],
+   "tail_labels": [
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213
+   ],
+   "n_lines_C": 65,
+   "marker_content_range": [
+    18,
+    196
+   ],
+   "apparent_gap_content_range": null
+  },
+  "retained_label_count": 57,
+  "V5_diag_regex_mid_labels": [
+   27,
+   28,
+   29,
+   51,
+   52,
+   61,
+   72,
+   73,
+   74,
+   96,
+   97,
+   106,
+   117,
+   118,
+   119,
+   141,
+   142,
+   151,
+   162,
+   163,
+   164,
+   186,
+   187
+  ],
+  "V5_diag_regex_all_retained": true,
+  "V5_exhausted_retries_labels": [
+   56,
+   101,
+   146,
+   191
+  ],
+  "V5_exhausted_retries_in_C": false,
+  "V5_exhausted_retries_retained": [],
+  "V5_broad_diag_not_retained_count": 12,
+  "V5_broad_diag_not_retained": [
+   [
+    35,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    48,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    56,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    80,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    93,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    101,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    125,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    138,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    146,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ],
+   [
+    170,
+    "  const defaults = { retries: 2, timeoutMs: 1000, enabled: true };"
+   ],
+   [
+    183,
+    "      if (Date.now() - startedAt > merged.timeoutMs) {"
+   ],
+   [
+    191,
+    "  return { ok: false, reason: \"exhausted_retries\", attempts: attempt };"
+   ]
+  ],
+  "recovery_store_exists": true,
+  "recovery_sha_ok": true,
+  "V4_agent_saw_view_marker_in_events": true,
+  "V4_note": "events contain the VIEW-STORED marker for this sha (post-plugin output reached the session stream)"
+ }
+]

@@ -1,0 +1,47 @@
+{
+ "audit_id": "G5-DIAGNOSTIC-RISK-ROOTCAUSE-R1/STEP2",
+ "contract_sources": {
+  "frozen_protocol": "r5/online/online-protocol.md (FROZEN): head 20 + tail 20 + 全部诊断行(逐字) + 指针 marker; 完整原文写入 .r5-store(无损,可按需 read 恢复)",
+  "prereg": "r5/expansion/prereg.md: MIN_CHARS=4000, HEAD/TAIL=20, 诊断行保留, side-store 无损",
+  "plugin_impl": "r5/online/view-store-plugin-template.js: DIAG=/(fail|error|assert|traceback|exception|fatal|denied|not found)/i (8 keywords, lexical)",
+  "g5_sheet_E1": "REVIEWER-SHEET.md: E1 = diagnostic line missing in-context (examples: error/assert/traceback/exception/fatal)"
+ },
+ "contract_definition_gap": {
+  "contract_term": "全部诊断行 (ALL diagnostic lines) — semantic, NOT operationally defined",
+  "implementation_term": "DIAG 8-keyword regex — lexical subset",
+  "gap_confirmed": true,
+  "note": "the implementation retains 100% of its OWN DIAG-matching lines (verified 30/30 in rc-step1-reconstruction.json); the defect is a coverage gap between the frozen contract text and the frozen implementation caliber, not an implementation bug of its own spec"
+ },
+ "exhausted_retries_lines_are_diagnostic": {
+  "lines": "return { ok: false, reason: \"exhausted_retries\", attempts: attempt };",
+  "rationale": "failure return of a retry loop; conveys ok:false + machine-readable failure reason; the natural reading of 诊断行/diagnostic line in the frozen contract and the G5 sheet covers it; the DIAG regex does not",
+  "matches_DIAG_regex": false,
+  "count_unique_lines": 12,
+  "count_view_instances": 120,
+  "unique_files": [
+   "auth_controller.js (run a302a9c17cfbaba5)",
+   "auth_controller.js (run ce499899267508a5)",
+   "auth_service.js (run 2e2bda501b5f1865)"
+  ]
+ },
+ "marker_coordinate_mismatch": {
+  "trigger_code": "view-store-plugin-template.js line 36: marker uses RAW tool-output line numbers (HEAD+1..n-TAIL = 21..198/199) while the head/tail it wraps display CONTENT line numbers (envelope offset = 3 lines: <path>/<type>/<content>)",
+  "effect": "a reader reconciling the marker with the visible numbering concludes content lines 18-20 are unaccounted (the E3 fact reported by both reviewers); in content coordinates the declared range 18..195/196 exactly abuts head (1-17) and tail (196/197..213) so NO content is actually undeclared-omitted",
+  "classification": "marker auditability / ambiguity defect (breaches 'auditable markers' deployment contract in spirit); NOT content loss"
+ },
+ "byte_recovery_integrity": {
+  "status": "INTACT",
+  "evidence": "V1 store==repo 30/30; sha16(store)==marker sha 30/30; plugin stores txt verbatim before folding; recovery re-injection measured intact in the original runs (123 recovery reads, Paper B evidence)"
+ },
+ "post_hoc_standard_change_warning": "redefining 诊断行 to the 8-keyword regex NOW in order to pass this audit is forbidden (would be a post-hoc standard change); the only legitimate remedy is a NEW frozen plugin revision + new evidence, not rewriting history",
+ "minimal_reproduction": {
+  "input_chars": 14871,
+  "diag_line_raw_pos": "raw index 63 (content label 60) — mid range",
+  "failure_return_raw_pos": "raw index 133 (content label 130) — mid range",
+  "diag_line_retained": true,
+  "failure_return_retained": false,
+  "marker_line": "[VIEW-STORED: lines 21..N omitted; sha16=...; full original: .r5-store/...]",
+  "critical_block_contains_catch": true,
+  "critical_block_contains_failure_return": false
+ }
+}

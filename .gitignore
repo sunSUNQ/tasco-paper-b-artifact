@@ -1,0 +1,25 @@
+﻿# raw trajectories (withheld pending full scan + license review)
+trajectories/*.jsonl
+trajectories/events/
+
+# credentials and environment
+.env
+*.key
+credentials/
+
+# build artifacts
+__pycache__/
+*.pyc
+*.aux
+*.out
+*.log
+*.blg
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# large intermediate files
+*.synctex.gz
+*.fls
+*.fdb_latexmk

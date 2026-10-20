@@ -1,0 +1,29 @@
+{
+ "probe": true,
+ "rec": {
+  "reviewer_id": "REVIEWER_B",
+  "assigned_model_name": "GLM-5.3-Flash",
+  "protocol_model_id": "glm-5.3-flash",
+  "endpoint_host": "st8tp3ajl0df3n8b8l8qu.apigateway-cn-beijing.volceapi.com",
+  "api_style": "openai_chat",
+  "request_model_field": "glm-5.3-flash",
+  "response_model_field": "glm-5.3-flash",
+  "usage": {
+   "completion_tokens": 124,
+   "completion_tokens_details": {
+    "reasoning_tokens": 102
+   },
+   "prompt_tokens": 61,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "total_tokens": 185
+  },
+  "http_status": 200,
+  "transport_error": null,
+  "wall_seconds": 2.7,
+  "raw_body_sha16": "13f993a2cf5e7b43",
+  "reply_preview": "{\"self_reported_model\": \"GLM\", \"capable_of_long_text_review\": true}"
+ },
+ "raw_body_utf8": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"message\":{\"content\":\"{\\\"self_reported_model\\\": \\\"GLM\\\", \\\"capable_of_long_text_review\\\": true}\",\"reasoning_content\":\"The user is asking me to identify myself in JSON format. I'm GLM, made by Z.ai. They want a single line of JSON with my model name and whether I'm capable of long text review. I should output only the JSON, no other text.\\n\\nMy model name: I should report as \\\"GLM\\\" — that's my self-reported model identity. As for capable_of_long_text_review: yes, I can handle long text review, so true.\\n\\nFormat: single line JSON only.\",\"role\":\"assistant\"}}],\"created\":1792392837,\"id\":\"2026101914535565390165b02844dc\",\"model\":\"glm-5.3-flash\",\"object\":\"chat.completion\",\"request_id\":\"2026101914535565390165b02844dc\",\"usage\":{\"completion_tokens\":124,\"completion_tokens_details\":{\"reasoning_tokens\":102},\"prompt_tokens\":61,\"prompt_tokens_details\":{\"cached_tokens\":0},\"total_tokens\":185}}"
+}

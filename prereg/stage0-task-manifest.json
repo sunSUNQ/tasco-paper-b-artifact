@@ -1,0 +1,137 @@
+{
+ "manifest_id": "R4-STAGE0-REAL-V1",
+ "frozen_from": "R4-EXECUTION-ADDENDUM-V1",
+ "model": "火山AI网关/glm-5.3-flash",
+ "arms": [
+  "B"
+ ],
+ "reps_per_task": 3,
+ "tasks": [
+  {
+   "task_id": "E-M1",
+   "family": "mutation",
+   "repo": "D:\\tasco-temp\\PAPER-A-SECTION3-EXPANSION-R1\\hook_ab_test\\enterprise_test_repo",
+   "source": "enterprise_test_cases/03_spec_driven_implementation.md",
+   "prompt": "根据 `specs/cache_policy_spec.md` 实现缓存策略，使 `tests/unit/test_cache_policy.js` 全部通过：\n\n- LRU 淘汰：超过 maxEntries（默认 1000）时淘汰最久未使用的条目。\n- TTL 过期：条目超过 ttlMs（默认 300000ms）后 get 返回 null 并移除。\n- set 刷新访问时间（recency）。\n- getStats 返回 { size, hits, misses, evictions }。\n\n只允许修改 `src/cache/cache_manager.js`，不要修改测试文件。修改后运行\n`node --test tests/unit/test_cache_policy.js` 验证并报告结果。\n",
+   "oracle": {
+    "type": "test_command",
+    "cmd": "node --test tests/unit/test_cache_policy.js",
+    "timeout_s": 120
+   },
+   "timeout_min": 20
+  },
+  {
+   "task_id": "E-M2",
+   "family": "mutation",
+   "repo": "D:\\tasco-temp\\PAPER-A-SECTION3-EXPANSION-R1\\hook_ab_test\\enterprise_test_repo",
+   "source": "enterprise_test_cases/05_api_migration_task.md",
+   "prompt": "将内部 `OrderClient` 从 v1 API 迁移到 v2 API（见 `docs/api_v2.md`），使\n`tests/unit/test_order_client.js` 全部通过：\n\n- baseUrl 使用 v2 前缀。\n- createOrder 支持 idempotencyKey 并随请求体发送。\n- getOrder 调用 v2 端点。\n- 新增 listOrders(userId) 方法，调用 /v2/orders?userId=:userId。\n- cancelOrder 保持可用。\n\n只允许修改 `src/clients/order_client.js`，不要修改测试文件。修改后运行\n`node --test tests/unit/test_order_client.js` 验证并报告结果。\n",
+   "oracle": {
+    "type": "test_command",
+    "cmd": "node --test tests/unit/test_order_client.js",
+    "timeout_s": 120
+   },
+   "timeout_min": 20
+  },
+  {
+   "task_id": "E-M3",
+   "family": "mutation",
+   "repo": "D:\\tasco-temp\\PAPER-A-SECTION3-EXPANSION-R1\\hook_ab_test\\enterprise_test_repo",
+   "source": "enterprise_test_cases/06_config_field_rename.md",
+   "prompt": "修改 `src/config/app_config.js` 中的配置字段 `notifications.defaultChannel`，将其重命名为 `defaultChannelName`，并同步更新 `src/notifications/notification_sender.js` 中的引用，使 `tests/unit/test_channel_config.js` 全部通过。\n\n只修改相关文件，不要修改测试文件。\n",
+   "oracle": {
+    "type": "test_command",
+    "cmd": "node --test tests/unit/test_channel_config.js",
+    "timeout_s": 120
+   },
+   "timeout_min": 20
+  },
+  {
+   "task_id": "E-M4",
+   "family": "mutation",
+   "repo": "D:\\tasco-temp\\PAPER-A-SECTION3-EXPANSION-R1\\hook_ab_test\\enterprise_test_repo",
+   "source": "enterprise_test_cases/07_order_bug_fix.md",
+   "prompt": "修复一个订单 bug：用户取消订单后，再查询订单详情仍显示 `created`（过期状态）。请定位根因并修复，使 `tests/unit/test_order_bug.js` 全部通过。\n\n涉及 controller、service、cache、database 模块，请从入口到数据层排查。\n",
+   "oracle": {
+    "type": "test_command",
+    "cmd": "node --test tests/unit/test_order_bug.js",
+    "timeout_s": 120
+   },
+   "timeout_min": 20
+  },
+  {
+   "task_id": "E-A1",
+   "family": "analysis",
+   "repo": "D:\\tasco-temp\\PAPER-A-SECTION3-EXPANSION-R1\\hook_ab_test\\enterprise_test_repo",
+   "source": "enterprise_test_cases/01_feature_traceability_large.md",
+   "prompt": "请基于 `specs/notification_channels_spec.md` 中的“用户通知渠道配置能力”需求，分析当前仓库中的实现情况。只读分析，不要修改任何文件。\n\n输出必须包含：\n\n1. 需求 → 实现映射表（需求编号 → 入口 → 实现文件 → 状态 → 测试缺口）。\n2. 涉及模块清单。\n3. 从入口到数据层的调用链。\n4. 若需增强或修复，列出修改点（文件 + 具体位置）。\n5. 测试覆盖缺口。\n\n请给出具体文件名和符号，不要泛泛而谈。\n",
+   "oracle": {
+    "type": "text_tokens",
+    "required_all": [
+     "channel_config_controller",
+     "channel_config_service",
+     "channel_repository"
+    ]
+   },
+   "timeout_min": 20
+  },
+  {
+   "task_id": "E-A2",
+   "family": "analysis",
+   "repo": "D:\\tasco-temp\\PAPER-A-SECTION3-EXPANSION-R1\\hook_ab_test\\enterprise_test_repo",
+   "source": "enterprise_test_cases/02_multi_module_gap_analysis.md",
+   "prompt": "针对 `specs/payment_v2_spec.md`，判断 payment 模块每个需求的实现状态：已实现 / 部分实现 / 未实现，并为每个结论给出证据（文件 + 符号）。只读分析，不要修改任何文件。\n\n必须覆盖以下需求：\n\n- P1 charge\n- P2 幂等\n- P3 退款（refund）\n- P4 重试退避（backoff）\n- P5 webhook 事件（charge.succeeded / refund.succeeded）\n- P6 对账单导出（statement export）\n\n输出格式：需求 | 状态 | 证据 | 差距说明。\n",
+   "oracle": {
+    "type": "text_tokens",
+    "required_any": [
+     "refund",
+     "backoff",
+     "statement",
+     "statement_worker"
+    ],
+    "min_any": 2
+   },
+   "timeout_min": 20
+  },
+  {
+   "task_id": "E-A3",
+   "family": "analysis",
+   "repo": "D:\\tasco-temp\\PAPER-A-SECTION3-EXPANSION-R1\\hook_ab_test\\enterprise_test_repo",
+   "source": "enterprise_test_cases/04_cross_module_bug_analysis.md",
+   "prompt": "线上反馈：用户配置缓存偶尔返回过期数据（stale data）。请定位根因并说明：\n\n1. 根因位置（文件 + 具体逻辑）。\n2. 触发条件（什么操作序列会导致读到过期数据）。\n3. 影响面（哪些模块受影响）。\n4. 最小修复建议（不要直接改代码，只给方案）。\n\n相关模块：`src/cache/config_cache.js`、`src/services/user_service.js`、\n`src/data/user_db.js`、`src/config/app_config.js`。只读分析，不要修改任何文件。\n",
+   "oracle": {
+    "type": "text_tokens",
+    "required_any": [
+     "invalidate",
+     "ttl",
+     "stale",
+     "过期",
+     "失效"
+    ],
+    "min_any": 1
+   },
+   "timeout_min": 20
+  },
+  {
+   "task_id": "T-A4",
+   "family": "analysis",
+   "repo": "D:\\tasco-temp\\PAPER-A-SECTION3-EXPANSION-R1\\hook_ab_test\\test_repo",
+   "source": "spec_test_cases_v2/01_notification_contract.md",
+   "prompt": "请以 Spec contract 方式分析 `specs/notification_webhook_spec.md`，只做阅读和总结，不修改任何文件。\n\n1. 提取背景目标、主流程、边界与异常、验收标准、接口约定和非功能要求。\n2. 对每条结论标注对应章节。\n3. 区分“规格明确规定”和“仅在背景中提及、尚未定义细节”的内容。\n4. 列出实现前必须向需求方确认的问题。\n\n不要臆造函数名、HTTP 头、签名算法、重试间隔或额外状态码。\n",
+   "oracle": {
+    "type": "text_tokens",
+    "required_any": [
+     "背景",
+     "主流程",
+     "边界",
+     "验收标准",
+     "接口约定",
+     "非功能"
+    ],
+    "min_any": 3
+   },
+   "timeout_min": 20
+  }
+ ],
+ "manifest_sha256": "dc113a3f28abfb17e6726f504f7f47f107ad5cfc42b7243c9c411cbf7148e821"
+}

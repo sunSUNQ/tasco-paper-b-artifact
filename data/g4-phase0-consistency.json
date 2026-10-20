@@ -1,0 +1,21 @@
+{
+ "P1_claim_count": 15,
+ "P1_counts": {
+  "SS": 7,
+  "SWL": 4,
+  "H": 2,
+  "U": 2
+ },
+ "P1_sum": true,
+ "P1_unique": true,
+ "P2_unit_flag": "S/R/M are CHARACTERS; Δinput and X are TOKENS. The additive identity is therefore an accounting decomposition, not a physical identity; the paper must state this explicitly.",
+ "P3_reconciliation": {
+  "R6_census_total_chars": 352804,
+  "expansion_runs_total": 317759,
+  "online_runs_total": 14,
+  "sum_check": false,
+  "G4_arm_mean_total": 158879.5,
+  "relation": "R6 352,804 = Σ over ALL 70 T runs (per-run); G4 158,880 = Σ over 30 expansion cases of the per-case ARM-MEAN (60 expansion runs / 2); 352,804 − expansion_total = online_10pair share; both are correct within their calibers (arm-mean vs per-run total)",
+  "expansion_share_of_R6": 0.901
+ }
+}

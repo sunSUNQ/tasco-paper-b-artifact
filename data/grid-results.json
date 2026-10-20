@@ -1,0 +1,2231 @@
+{
+ "split": {
+  "seed": 20261017,
+  "calibration": [
+   "A-E-M1",
+   "A-E-M2",
+   "A-E-M4",
+   "A-INT02",
+   "A-INT03",
+   "A-INT05",
+   "A-INT07",
+   "A-INT08",
+   "A-INT10",
+   "A-INT12",
+   "B-SPEC02",
+   "B-SPEC03",
+   "B-SPEC04",
+   "B-SPEC07",
+   "B-SPEC08",
+   "B-SPEC09",
+   "B-SPEC10",
+   "C-ENT01",
+   "C-ENT02",
+   "D-MODEN10",
+   "D-MODEN12",
+   "D-MODEN13",
+   "D-MODEN14",
+   "D-MODEN15",
+   "D-MODEN16",
+   "D-MODEN18",
+   "D-MODEN20",
+   "D-MODEN21",
+   "D-MODEN22",
+   "D-MODTR00",
+   "D-MODTR01",
+   "D-MODTR02",
+   "D-MODTR03",
+   "D-MODTR04",
+   "D-MODTR05",
+   "D-MODTR07",
+   "E-FIL052",
+   "E-FIL054",
+   "E-FIL055",
+   "E-FIL056",
+   "E-FIL057",
+   "E-FIL060",
+   "E-FIL061",
+   "E-FIL062",
+   "E-FIL063",
+   "E-FIL064",
+   "E-FIL065",
+   "E-FIL067",
+   "E-FIL070",
+   "E-FIL071",
+   "E-FIL073",
+   "E-FIL074",
+   "E-FIL076",
+   "E-FIL077",
+   "E-FIL078",
+   "E-FIL079",
+   "E-FIL081",
+   "E-FIL083",
+   "E-FIL084",
+   "E-FIL085",
+   "E-FIL088",
+   "E-FIL089",
+   "E-FIL091",
+   "E-FIL092",
+   "E-FIL093",
+   "E-FIL094",
+   "E-FIL095",
+   "E-FIL096",
+   "E-FIL097",
+   "E-FIL098"
+  ],
+  "holdout": [
+   "A-INT01",
+   "A-INT04",
+   "A-INT06",
+   "A-INT09",
+   "A-INT11",
+   "B-SPEC01",
+   "B-SPEC05",
+   "B-SPEC06",
+   "C-ENT04",
+   "D-MODEN11",
+   "D-MODEN17",
+   "D-MODEN19",
+   "D-MODEN23",
+   "D-MODTR06",
+   "D-MODTR08",
+   "D-MODTR09",
+   "E-FIL053",
+   "E-FIL058",
+   "E-FIL059",
+   "E-FIL066",
+   "E-FIL068",
+   "E-FIL069",
+   "E-FIL072",
+   "E-FIL075",
+   "E-FIL080",
+   "E-FIL082",
+   "E-FIL086",
+   "E-FIL087",
+   "E-FIL090",
+   "E-FIL099"
+  ],
+  "holdout_families": {
+   "file-review": 14,
+   "mutation-testfix": 5,
+   "module-analysis": 7,
+   "spec-contract": 3,
+   "enterprise-analysis": 1
+  }
+ },
+ "grid": {
+  "R2_D0.0_M0": {
+   "cal": {
+    "events": 54,
+    "chars": 34120,
+    "coverage": 0.4,
+    "risk": 162,
+    "by_class": {
+     "command_output": 54
+    },
+    "fam_chars": {
+     "file-review": 13733,
+     "spec-contract": 1465,
+     "enterprise-analysis": 681,
+     "module-analysis": 17316,
+     "mutation-testfix": 925
+    }
+   },
+   "hold": {
+    "events": 19,
+    "chars": 13730,
+    "coverage": 0.333,
+    "risk": 83,
+    "char_share": 0.0166,
+    "by_class": {
+     "command_output": 19
+    },
+    "fam_chars": {
+     "mutation-testfix": 2108,
+     "file-review": 0,
+     "module-analysis": 11622,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R2_D0.0_M500": {
+   "cal": {
+    "events": 30,
+    "chars": 32050,
+    "coverage": 0.314,
+    "risk": 162,
+    "by_class": {
+     "command_output": 30
+    },
+    "fam_chars": {
+     "file-review": 13499,
+     "spec-contract": 1465,
+     "enterprise-analysis": 681,
+     "module-analysis": 16012,
+     "mutation-testfix": 393
+    }
+   },
+   "hold": {
+    "events": 13,
+    "chars": 13526,
+    "coverage": 0.267,
+    "risk": 83,
+    "char_share": 0.0163,
+    "by_class": {
+     "command_output": 13
+    },
+    "fam_chars": {
+     "mutation-testfix": 1904,
+     "file-review": 0,
+     "module-analysis": 11622,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R2_D0.0_M1000": {
+   "cal": {
+    "events": 29,
+    "chars": 31998,
+    "coverage": 0.314,
+    "risk": 162,
+    "by_class": {
+     "command_output": 29
+    },
+    "fam_chars": {
+     "file-review": 13499,
+     "spec-contract": 1465,
+     "enterprise-analysis": 681,
+     "module-analysis": 16012,
+     "mutation-testfix": 341
+    }
+   },
+   "hold": {
+    "events": 11,
+    "chars": 12028,
+    "coverage": 0.267,
+    "risk": 83,
+    "char_share": 0.0145,
+    "by_class": {
+     "command_output": 11
+    },
+    "fam_chars": {
+     "mutation-testfix": 1904,
+     "file-review": 0,
+     "module-analysis": 10124,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R2_D0.0_M2000": {
+   "cal": {
+    "events": 22,
+    "chars": 29699,
+    "coverage": 0.257,
+    "risk": 162,
+    "by_class": {
+     "command_output": 22
+    },
+    "fam_chars": {
+     "file-review": 13499,
+     "spec-contract": 1465,
+     "enterprise-analysis": 530,
+     "module-analysis": 13932,
+     "mutation-testfix": 273
+    }
+   },
+   "hold": {
+    "events": 11,
+    "chars": 12028,
+    "coverage": 0.267,
+    "risk": 83,
+    "char_share": 0.0145,
+    "by_class": {
+     "command_output": 11
+    },
+    "fam_chars": {
+     "mutation-testfix": 1904,
+     "file-review": 0,
+     "module-analysis": 10124,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R2_D0.2_M0": {
+   "cal": {
+    "events": 1,
+    "chars": 239,
+    "coverage": 0.014,
+    "risk": 162,
+    "by_class": {
+     "command_output": 1
+    },
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 239
+    }
+   },
+   "hold": {
+    "events": 2,
+    "chars": 912,
+    "coverage": 0.033,
+    "risk": 83,
+    "char_share": 0.0011,
+    "by_class": {
+     "command_output": 2
+    },
+    "fam_chars": {
+     "mutation-testfix": 912,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R2_D0.2_M500": {
+   "cal": {
+    "events": 1,
+    "chars": 239,
+    "coverage": 0.014,
+    "risk": 162,
+    "by_class": {
+     "command_output": 1
+    },
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 239
+    }
+   },
+   "hold": {
+    "events": 2,
+    "chars": 912,
+    "coverage": 0.033,
+    "risk": 83,
+    "char_share": 0.0011,
+    "by_class": {
+     "command_output": 2
+    },
+    "fam_chars": {
+     "mutation-testfix": 912,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R2_D0.2_M1000": {
+   "cal": {
+    "events": 1,
+    "chars": 239,
+    "coverage": 0.014,
+    "risk": 162,
+    "by_class": {
+     "command_output": 1
+    },
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 239
+    }
+   },
+   "hold": {
+    "events": 2,
+    "chars": 912,
+    "coverage": 0.033,
+    "risk": 83,
+    "char_share": 0.0011,
+    "by_class": {
+     "command_output": 2
+    },
+    "fam_chars": {
+     "mutation-testfix": 912,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R2_D0.2_M2000": {
+   "cal": {
+    "events": 1,
+    "chars": 239,
+    "coverage": 0.014,
+    "risk": 162,
+    "by_class": {
+     "command_output": 1
+    },
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 239
+    }
+   },
+   "hold": {
+    "events": 2,
+    "chars": 912,
+    "coverage": 0.033,
+    "risk": 83,
+    "char_share": 0.0011,
+    "by_class": {
+     "command_output": 2
+    },
+    "fam_chars": {
+     "mutation-testfix": 912,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R2_D0.3_M0": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R2_D0.3_M500": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R2_D0.3_M1000": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R2_D0.3_M2000": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R2_D0.4_M0": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R2_D0.4_M500": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R2_D0.4_M1000": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R2_D0.4_M2000": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R3_D0.0_M0": {
+   "cal": {
+    "events": 54,
+    "chars": 34120,
+    "coverage": 0.4,
+    "risk": 162,
+    "by_class": {
+     "command_output": 54
+    },
+    "fam_chars": {
+     "file-review": 13733,
+     "spec-contract": 1465,
+     "enterprise-analysis": 681,
+     "module-analysis": 17316,
+     "mutation-testfix": 925
+    }
+   },
+   "hold": {
+    "events": 19,
+    "chars": 13730,
+    "coverage": 0.333,
+    "risk": 83,
+    "char_share": 0.0166,
+    "by_class": {
+     "command_output": 19
+    },
+    "fam_chars": {
+     "mutation-testfix": 2108,
+     "file-review": 0,
+     "module-analysis": 11622,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R3_D0.0_M500": {
+   "cal": {
+    "events": 30,
+    "chars": 32050,
+    "coverage": 0.314,
+    "risk": 162,
+    "by_class": {
+     "command_output": 30
+    },
+    "fam_chars": {
+     "file-review": 13499,
+     "spec-contract": 1465,
+     "enterprise-analysis": 681,
+     "module-analysis": 16012,
+     "mutation-testfix": 393
+    }
+   },
+   "hold": {
+    "events": 13,
+    "chars": 13526,
+    "coverage": 0.267,
+    "risk": 83,
+    "char_share": 0.0163,
+    "by_class": {
+     "command_output": 13
+    },
+    "fam_chars": {
+     "mutation-testfix": 1904,
+     "file-review": 0,
+     "module-analysis": 11622,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R3_D0.0_M1000": {
+   "cal": {
+    "events": 29,
+    "chars": 31998,
+    "coverage": 0.314,
+    "risk": 162,
+    "by_class": {
+     "command_output": 29
+    },
+    "fam_chars": {
+     "file-review": 13499,
+     "spec-contract": 1465,
+     "enterprise-analysis": 681,
+     "module-analysis": 16012,
+     "mutation-testfix": 341
+    }
+   },
+   "hold": {
+    "events": 11,
+    "chars": 12028,
+    "coverage": 0.267,
+    "risk": 83,
+    "char_share": 0.0145,
+    "by_class": {
+     "command_output": 11
+    },
+    "fam_chars": {
+     "mutation-testfix": 1904,
+     "file-review": 0,
+     "module-analysis": 10124,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R3_D0.0_M2000": {
+   "cal": {
+    "events": 22,
+    "chars": 29699,
+    "coverage": 0.257,
+    "risk": 162,
+    "by_class": {
+     "command_output": 22
+    },
+    "fam_chars": {
+     "file-review": 13499,
+     "spec-contract": 1465,
+     "enterprise-analysis": 530,
+     "module-analysis": 13932,
+     "mutation-testfix": 273
+    }
+   },
+   "hold": {
+    "events": 11,
+    "chars": 12028,
+    "coverage": 0.267,
+    "risk": 83,
+    "char_share": 0.0145,
+    "by_class": {
+     "command_output": 11
+    },
+    "fam_chars": {
+     "mutation-testfix": 1904,
+     "file-review": 0,
+     "module-analysis": 10124,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R3_D0.2_M0": {
+   "cal": {
+    "events": 1,
+    "chars": 239,
+    "coverage": 0.014,
+    "risk": 162,
+    "by_class": {
+     "command_output": 1
+    },
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 239
+    }
+   },
+   "hold": {
+    "events": 2,
+    "chars": 912,
+    "coverage": 0.033,
+    "risk": 83,
+    "char_share": 0.0011,
+    "by_class": {
+     "command_output": 2
+    },
+    "fam_chars": {
+     "mutation-testfix": 912,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R3_D0.2_M500": {
+   "cal": {
+    "events": 1,
+    "chars": 239,
+    "coverage": 0.014,
+    "risk": 162,
+    "by_class": {
+     "command_output": 1
+    },
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 239
+    }
+   },
+   "hold": {
+    "events": 2,
+    "chars": 912,
+    "coverage": 0.033,
+    "risk": 83,
+    "char_share": 0.0011,
+    "by_class": {
+     "command_output": 2
+    },
+    "fam_chars": {
+     "mutation-testfix": 912,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R3_D0.2_M1000": {
+   "cal": {
+    "events": 1,
+    "chars": 239,
+    "coverage": 0.014,
+    "risk": 162,
+    "by_class": {
+     "command_output": 1
+    },
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 239
+    }
+   },
+   "hold": {
+    "events": 2,
+    "chars": 912,
+    "coverage": 0.033,
+    "risk": 83,
+    "char_share": 0.0011,
+    "by_class": {
+     "command_output": 2
+    },
+    "fam_chars": {
+     "mutation-testfix": 912,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R3_D0.2_M2000": {
+   "cal": {
+    "events": 1,
+    "chars": 239,
+    "coverage": 0.014,
+    "risk": 162,
+    "by_class": {
+     "command_output": 1
+    },
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 239
+    }
+   },
+   "hold": {
+    "events": 2,
+    "chars": 912,
+    "coverage": 0.033,
+    "risk": 83,
+    "char_share": 0.0011,
+    "by_class": {
+     "command_output": 2
+    },
+    "fam_chars": {
+     "mutation-testfix": 912,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R3_D0.3_M0": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R3_D0.3_M500": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R3_D0.3_M1000": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R3_D0.3_M2000": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R3_D0.4_M0": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R3_D0.4_M500": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R3_D0.4_M1000": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R3_D0.4_M2000": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R4_D0.0_M0": {
+   "cal": {
+    "events": 54,
+    "chars": 34120,
+    "coverage": 0.4,
+    "risk": 162,
+    "by_class": {
+     "command_output": 54
+    },
+    "fam_chars": {
+     "file-review": 13733,
+     "spec-contract": 1465,
+     "enterprise-analysis": 681,
+     "module-analysis": 17316,
+     "mutation-testfix": 925
+    }
+   },
+   "hold": {
+    "events": 19,
+    "chars": 13730,
+    "coverage": 0.333,
+    "risk": 83,
+    "char_share": 0.0166,
+    "by_class": {
+     "command_output": 19
+    },
+    "fam_chars": {
+     "mutation-testfix": 2108,
+     "file-review": 0,
+     "module-analysis": 11622,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R4_D0.0_M500": {
+   "cal": {
+    "events": 30,
+    "chars": 32050,
+    "coverage": 0.314,
+    "risk": 162,
+    "by_class": {
+     "command_output": 30
+    },
+    "fam_chars": {
+     "file-review": 13499,
+     "spec-contract": 1465,
+     "enterprise-analysis": 681,
+     "module-analysis": 16012,
+     "mutation-testfix": 393
+    }
+   },
+   "hold": {
+    "events": 13,
+    "chars": 13526,
+    "coverage": 0.267,
+    "risk": 83,
+    "char_share": 0.0163,
+    "by_class": {
+     "command_output": 13
+    },
+    "fam_chars": {
+     "mutation-testfix": 1904,
+     "file-review": 0,
+     "module-analysis": 11622,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R4_D0.0_M1000": {
+   "cal": {
+    "events": 29,
+    "chars": 31998,
+    "coverage": 0.314,
+    "risk": 162,
+    "by_class": {
+     "command_output": 29
+    },
+    "fam_chars": {
+     "file-review": 13499,
+     "spec-contract": 1465,
+     "enterprise-analysis": 681,
+     "module-analysis": 16012,
+     "mutation-testfix": 341
+    }
+   },
+   "hold": {
+    "events": 11,
+    "chars": 12028,
+    "coverage": 0.267,
+    "risk": 83,
+    "char_share": 0.0145,
+    "by_class": {
+     "command_output": 11
+    },
+    "fam_chars": {
+     "mutation-testfix": 1904,
+     "file-review": 0,
+     "module-analysis": 10124,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R4_D0.0_M2000": {
+   "cal": {
+    "events": 22,
+    "chars": 29699,
+    "coverage": 0.257,
+    "risk": 162,
+    "by_class": {
+     "command_output": 22
+    },
+    "fam_chars": {
+     "file-review": 13499,
+     "spec-contract": 1465,
+     "enterprise-analysis": 530,
+     "module-analysis": 13932,
+     "mutation-testfix": 273
+    }
+   },
+   "hold": {
+    "events": 11,
+    "chars": 12028,
+    "coverage": 0.267,
+    "risk": 83,
+    "char_share": 0.0145,
+    "by_class": {
+     "command_output": 11
+    },
+    "fam_chars": {
+     "mutation-testfix": 1904,
+     "file-review": 0,
+     "module-analysis": 10124,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R4_D0.2_M0": {
+   "cal": {
+    "events": 1,
+    "chars": 239,
+    "coverage": 0.014,
+    "risk": 162,
+    "by_class": {
+     "command_output": 1
+    },
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 239
+    }
+   },
+   "hold": {
+    "events": 2,
+    "chars": 912,
+    "coverage": 0.033,
+    "risk": 83,
+    "char_share": 0.0011,
+    "by_class": {
+     "command_output": 2
+    },
+    "fam_chars": {
+     "mutation-testfix": 912,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R4_D0.2_M500": {
+   "cal": {
+    "events": 1,
+    "chars": 239,
+    "coverage": 0.014,
+    "risk": 162,
+    "by_class": {
+     "command_output": 1
+    },
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 239
+    }
+   },
+   "hold": {
+    "events": 2,
+    "chars": 912,
+    "coverage": 0.033,
+    "risk": 83,
+    "char_share": 0.0011,
+    "by_class": {
+     "command_output": 2
+    },
+    "fam_chars": {
+     "mutation-testfix": 912,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R4_D0.2_M1000": {
+   "cal": {
+    "events": 1,
+    "chars": 239,
+    "coverage": 0.014,
+    "risk": 162,
+    "by_class": {
+     "command_output": 1
+    },
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 239
+    }
+   },
+   "hold": {
+    "events": 2,
+    "chars": 912,
+    "coverage": 0.033,
+    "risk": 83,
+    "char_share": 0.0011,
+    "by_class": {
+     "command_output": 2
+    },
+    "fam_chars": {
+     "mutation-testfix": 912,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R4_D0.2_M2000": {
+   "cal": {
+    "events": 1,
+    "chars": 239,
+    "coverage": 0.014,
+    "risk": 162,
+    "by_class": {
+     "command_output": 1
+    },
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 239
+    }
+   },
+   "hold": {
+    "events": 2,
+    "chars": 912,
+    "coverage": 0.033,
+    "risk": 83,
+    "char_share": 0.0011,
+    "by_class": {
+     "command_output": 2
+    },
+    "fam_chars": {
+     "mutation-testfix": 912,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R4_D0.3_M0": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R4_D0.3_M500": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R4_D0.3_M1000": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R4_D0.3_M2000": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R4_D0.4_M0": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R4_D0.4_M500": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R4_D0.4_M1000": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R4_D0.4_M2000": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R99_D0.0_M0": {
+   "cal": {
+    "events": 54,
+    "chars": 34120,
+    "coverage": 0.4,
+    "risk": 162,
+    "by_class": {
+     "command_output": 54
+    },
+    "fam_chars": {
+     "file-review": 13733,
+     "spec-contract": 1465,
+     "enterprise-analysis": 681,
+     "module-analysis": 17316,
+     "mutation-testfix": 925
+    }
+   },
+   "hold": {
+    "events": 19,
+    "chars": 13730,
+    "coverage": 0.333,
+    "risk": 83,
+    "char_share": 0.0166,
+    "by_class": {
+     "command_output": 19
+    },
+    "fam_chars": {
+     "mutation-testfix": 2108,
+     "file-review": 0,
+     "module-analysis": 11622,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R99_D0.0_M500": {
+   "cal": {
+    "events": 30,
+    "chars": 32050,
+    "coverage": 0.314,
+    "risk": 162,
+    "by_class": {
+     "command_output": 30
+    },
+    "fam_chars": {
+     "file-review": 13499,
+     "spec-contract": 1465,
+     "enterprise-analysis": 681,
+     "module-analysis": 16012,
+     "mutation-testfix": 393
+    }
+   },
+   "hold": {
+    "events": 13,
+    "chars": 13526,
+    "coverage": 0.267,
+    "risk": 83,
+    "char_share": 0.0163,
+    "by_class": {
+     "command_output": 13
+    },
+    "fam_chars": {
+     "mutation-testfix": 1904,
+     "file-review": 0,
+     "module-analysis": 11622,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R99_D0.0_M1000": {
+   "cal": {
+    "events": 29,
+    "chars": 31998,
+    "coverage": 0.314,
+    "risk": 162,
+    "by_class": {
+     "command_output": 29
+    },
+    "fam_chars": {
+     "file-review": 13499,
+     "spec-contract": 1465,
+     "enterprise-analysis": 681,
+     "module-analysis": 16012,
+     "mutation-testfix": 341
+    }
+   },
+   "hold": {
+    "events": 11,
+    "chars": 12028,
+    "coverage": 0.267,
+    "risk": 83,
+    "char_share": 0.0145,
+    "by_class": {
+     "command_output": 11
+    },
+    "fam_chars": {
+     "mutation-testfix": 1904,
+     "file-review": 0,
+     "module-analysis": 10124,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R99_D0.0_M2000": {
+   "cal": {
+    "events": 22,
+    "chars": 29699,
+    "coverage": 0.257,
+    "risk": 162,
+    "by_class": {
+     "command_output": 22
+    },
+    "fam_chars": {
+     "file-review": 13499,
+     "spec-contract": 1465,
+     "enterprise-analysis": 530,
+     "module-analysis": 13932,
+     "mutation-testfix": 273
+    }
+   },
+   "hold": {
+    "events": 11,
+    "chars": 12028,
+    "coverage": 0.267,
+    "risk": 83,
+    "char_share": 0.0145,
+    "by_class": {
+     "command_output": 11
+    },
+    "fam_chars": {
+     "mutation-testfix": 1904,
+     "file-review": 0,
+     "module-analysis": 10124,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R99_D0.2_M0": {
+   "cal": {
+    "events": 1,
+    "chars": 239,
+    "coverage": 0.014,
+    "risk": 162,
+    "by_class": {
+     "command_output": 1
+    },
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 239
+    }
+   },
+   "hold": {
+    "events": 2,
+    "chars": 912,
+    "coverage": 0.033,
+    "risk": 83,
+    "char_share": 0.0011,
+    "by_class": {
+     "command_output": 2
+    },
+    "fam_chars": {
+     "mutation-testfix": 912,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R99_D0.2_M500": {
+   "cal": {
+    "events": 1,
+    "chars": 239,
+    "coverage": 0.014,
+    "risk": 162,
+    "by_class": {
+     "command_output": 1
+    },
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 239
+    }
+   },
+   "hold": {
+    "events": 2,
+    "chars": 912,
+    "coverage": 0.033,
+    "risk": 83,
+    "char_share": 0.0011,
+    "by_class": {
+     "command_output": 2
+    },
+    "fam_chars": {
+     "mutation-testfix": 912,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R99_D0.2_M1000": {
+   "cal": {
+    "events": 1,
+    "chars": 239,
+    "coverage": 0.014,
+    "risk": 162,
+    "by_class": {
+     "command_output": 1
+    },
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 239
+    }
+   },
+   "hold": {
+    "events": 2,
+    "chars": 912,
+    "coverage": 0.033,
+    "risk": 83,
+    "char_share": 0.0011,
+    "by_class": {
+     "command_output": 2
+    },
+    "fam_chars": {
+     "mutation-testfix": 912,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R99_D0.2_M2000": {
+   "cal": {
+    "events": 1,
+    "chars": 239,
+    "coverage": 0.014,
+    "risk": 162,
+    "by_class": {
+     "command_output": 1
+    },
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 239
+    }
+   },
+   "hold": {
+    "events": 2,
+    "chars": 912,
+    "coverage": 0.033,
+    "risk": 83,
+    "char_share": 0.0011,
+    "by_class": {
+     "command_output": 2
+    },
+    "fam_chars": {
+     "mutation-testfix": 912,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R99_D0.3_M0": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R99_D0.3_M500": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R99_D0.3_M1000": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R99_D0.3_M2000": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R99_D0.4_M0": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R99_D0.4_M500": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R99_D0.4_M1000": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  },
+  "R99_D0.4_M2000": {
+   "cal": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 162,
+    "by_class": {},
+    "fam_chars": {
+     "file-review": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0,
+     "module-analysis": 0,
+     "mutation-testfix": 0
+    }
+   },
+   "hold": {
+    "events": 0,
+    "chars": 0,
+    "coverage": 0.0,
+    "risk": 83,
+    "char_share": 0.0,
+    "by_class": {},
+    "fam_chars": {
+     "mutation-testfix": 0,
+     "file-review": 0,
+     "module-analysis": 0,
+     "spec-contract": 0,
+     "enterprise-analysis": 0
+    }
+   }
+  }
+ },
+ "naming": "all volumes = OPPORTUNITY PROXY (offline; not actual token savings)"
+}

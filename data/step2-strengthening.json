@@ -1,0 +1,1743 @@
+{
+ "S1_sigma_w": {
+  "tasks": 8,
+  "pairs": 24,
+  "sigma_w": 0.155,
+  "median_abs_delta": 0.1025,
+  "bootstrap95_task_level": [
+   0.0925,
+   0.1974
+  ]
+ },
+ "S2_sigma_w_arms": {
+  "B": {
+   "n_cases": 30,
+   "sigma_w_B": 0.2436,
+   "median_abs_delta": 0.2438
+  },
+  "T": {
+   "n_cases": 30,
+   "sigma_w_T": 0.2578,
+   "median_abs_delta": 0.3429
+  },
+  "hypothesis_sigma_w_T_eq_B": "NOT REJECTED at this sample (T 0.258 vs B 0.244); 2-rep estimates have wide CIs; treat as consistent-with-equality, not proof",
+  "note": "direct measurement of the preregistered assumption"
+ },
+ "S3_recovery_attribution": {
+  "recoveries_total": 123,
+  "recovered_chars_total": 317759,
+  "recovered_chars_median": 2562,
+  "step_input_at_recovery_median": 3515,
+  "case_corr_recovered_chars_vs_input_delta": 0.033,
+  "attribution_note": "recovery read outputs enter context natively (no anchors); their size is the marginal re-injection; step attribution is approximate",
+  "per_case": [
+   {
+    "case_id": "X-LO-XS2",
+    "rep": 1,
+    "recoveries": [],
+    "n_recoveries": 0,
+    "recovered_chars": 0
+   },
+   {
+    "case_id": "X-LO-XS2",
+    "rep": 2,
+    "recoveries": [],
+    "n_recoveries": 0,
+    "recovered_chars": 0
+   },
+   {
+    "case_id": "X-HI-M05",
+    "rep": 1,
+    "recoveries": [
+     {
+      "seq": 8,
+      "out_chars": 2569,
+      "path": "runs/a302a9c17cfbaba5/workdir/.r5-store/5166823c3001d5b3.txt",
+      "step_input_at": 5143,
+      "step_cache_at": 14016
+     },
+     {
+      "seq": 9,
+      "out_chars": 2578,
+      "path": "runs/a302a9c17cfbaba5/workdir/.r5-store/b475b9e4adf12e19.txt",
+      "step_input_at": 5143,
+      "step_cache_at": 14016
+     },
+     {
+      "seq": 11,
+      "out_chars": 2929,
+      "path": "runs/a302a9c17cfbaba5/workdir/.r5-store/652e9fcd4753f90e.txt",
+      "step_input_at": 2587,
+      "step_cache_at": 19136
+     }
+    ],
+    "n_recoveries": 3,
+    "recovered_chars": 8076
+   },
+   {
+    "case_id": "X-HI-M05",
+    "rep": 2,
+    "recoveries": [
+     {
+      "seq": 8,
+      "out_chars": 2569,
+      "path": "runs/ce499899267508a5/workdir/.r5-store/0f7965aed9ab2c13.txt",
+      "step_input_at": 3341,
+      "step_cache_at": 9280
+     },
+     {
+      "seq": 9,
+      "out_chars": 2288,
+      "path": "runs/ce499899267508a5/workdir/.r5-store/d9a1a011d2bd5044.txt",
+      "step_input_at": 4432,
+      "step_cache_at": 12608
+     },
+     {
+      "seq": 10,
+      "out_chars": 2578,
+      "path": "runs/ce499899267508a5/workdir/.r5-store/285aceabfdd88984.txt",
+      "step_input_at": 4432,
+      "step_cache_at": 12608
+     },
+     {
+      "seq": 11,
+      "out_chars": 2634,
+      "path": "runs/ce499899267508a5/workdir/.r5-store/273614e2fdf056a3.txt",
+      "step_input_at": 4432,
+      "step_cache_at": 12608
+     },
+     {
+      "seq": 12,
+      "out_chars": 2619,
+      "path": "runs/ce499899267508a5/workdir/.r5-store/601e807655a4f306.txt",
+      "step_input_at": 4432,
+      "step_cache_at": 12608
+     },
+     {
+      "seq": 13,
+      "out_chars": 2599,
+      "path": "runs/ce499899267508a5/workdir/.r5-store/4fe8a5c62c0bbbd6.txt",
+      "step_input_at": 6736,
+      "step_cache_at": 17024
+     }
+    ],
+    "n_recoveries": 6,
+    "recovered_chars": 15287
+   },
+   {
+    "case_id": "X-LO-F04",
+    "rep": 1,
+    "recoveries": [],
+    "n_recoveries": 0,
+    "recovered_chars": 0
+   },
+   {
+    "case_id": "X-LO-F04",
+    "rep": 2,
+    "recoveries": [],
+    "n_recoveries": 0,
+    "recovered_chars": 0
+   },
+   {
+    "case_id": "X-LO-F01",
+    "rep": 1,
+    "recoveries": [],
+    "n_recoveries": 0,
+    "recovered_chars": 0
+   },
+   {
+    "case_id": "X-LO-F01",
+    "rep": 2,
+    "recoveries": [],
+    "n_recoveries": 0,
+    "recovered_chars": 0
+   },
+   {
+    "case_id": "X-HI-M04",
+    "rep": 1,
+    "recoveries": [
+     {
+      "seq": 6,
+      "out_chars": 2620,
+      "path": "runs/2e2bda501b5f1865/workdir/.r5-store/bd911b6f26b1d421.txt",
+      "step_input_at": 3161,
+      "step_cache_at": 9856
+     },
+     {
+      "seq": 7,
+      "out_chars": 2593,
+      "path": "runs/2e2bda501b5f1865/workdir/.r5-store/4fd5c0439aa65b0f.txt",
+      "step_input_at": 3161,
+      "step_cache_at": 9856
+     },
+     {
+      "seq": 8,
+      "out_chars": 2619,
+      "path": "runs/2e2bda501b5f1865/workdir/.r5-store/4772cd25172f2c24.txt",
+      "step_input_at": 4170,
+      "step_cache_at": 12992
+     },
+     {
+      "seq": 9,
+      "out_chars": 2929,
+      "path": "runs/2e2bda501b5f1865/workdir/.r5-store/571be7c4b5f463fb.txt",
+      "step_input_at": 4170,
+      "step_cache_at": 12992
+     }
+    ],
+    "n_recoveries": 4,
+    "recovered_chars": 10761
+   },
+   {
+    "case_id": "X-HI-M04",
+    "rep": 2,
+    "recoveries": [
+     {
+      "seq": 10,
+      "out_chars": 2722,
+      "path": "runs/bec63494e3332a3f/workdir/.r5-store/01b54dbb930643ef.txt",
+      "step_input_at": 6110,
+      "step_cache_at": 9856
+     },
+     {
+      "seq": 11,
+      "out_chars": 2673,
+      "path": "runs/bec63494e3332a3f/workdir/.r5-store/aee57d0414f6ea80.txt",
+      "step_input_at": 6110,
+      "step_cache_at": 9856
+     },
+     {
+      "seq": 12,
+      "out_chars": 2673,
+      "path": "runs/bec63494e3332a3f/workdir/.r5-store/6b7d885d5506c368.txt",
+      "step_input_at": 6110,
+      "step_cache_at": 9856
+     },
+     {
+      "seq": 13,
+      "out_chars": 2747,
+      "path": "runs/bec63494e3332a3f/workdir/.r5-store/02da715f395d3e7b.txt",
+      "step_input_at": 11366,
+      "step_cache_at": 15936
+     },
+     {
+      "seq": 14,
+      "out_chars": 2929,
+      "path": "runs/bec63494e3332a3f/workdir/.r5-store/adaea38609a40c2d.txt",
+      "step_input_at": 11366,
+      "step_cache_at": 15936
+     },
+     {
+      "seq": 15,
+      "out_chars": 2593,
+      "path": "runs/bec63494e3332a3f/workdir/.r5-store/dad15e532a386533.txt",
+      "step_input_at": 11366,
+      "step_cache_at": 15936
+     },
+     {
+      "seq": 16,
+      "out_chars": 2620,
+      "path": "runs/bec63494e3332a3f/workdir/.r5-store/193c31713a4eb3dd.txt",
+      "step_input_at": 11366,
+      "step_cache_at": 15936
+     },
+     {
+      "seq": 17,
+      "out_chars": 2619,
+      "path": "runs/bec63494e3332a3f/workdir/.r5-store/b0c701527b0d3884.txt",
+      "step_input_at": 6093,
+      "step_cache_at": 27264
+     }
+    ],
+    "n_recoveries": 8,
+    "recovered_chars": 21576
+   },
+   {
+    "case_id": "X-NO-F07",
+    "rep": 1,
+    "recoveries": [
+     {
+      "seq": 1,
+      "out_chars": 2519,
+      "path": "runs/5d5d98757d6ad421/workdir/.r5-store/6a9dfd36927c5b9a.txt",
+      "step_input_at": 9305,
+      "step_cache_at": 0
+     },
+     {
+      "seq": 2,
+      "out_chars": 2875,
+      "path": "runs/5d5d98757d6ad421/workdir/.r5-store/add18629fe2e46f0.txt",
+      "step_input_at": 815,
+      "step_cache_at": 9280
+     }
+    ],
+    "n_recoveries": 2,
+    "recovered_chars": 5394
+   },
+   {
+    "case_id": "X-NO-F07",
+    "rep": 2,
+    "recoveries": [
+     {
+      "seq": 1,
+      "out_chars": 2519,
+      "path": "runs/1e67e6c2ac9fdaf1/workdir/.r5-store/c0a5a8398a0cdf37.txt",
+      "step_input_at": 819,
+      "step_cache_at": 9280
+     }
+    ],
+    "n_recoveries": 1,
+    "recovered_chars": 2519
+   },
+   {
+    "case_id": "X-LO-F02",
+    "rep": 1,
+    "recoveries": [],
+    "n_recoveries": 0,
+    "recovered_chars": 0
+   },
+   {
+    "case_id": "X-LO-F02",
+    "rep": 2,
+    "recoveries": [],
+    "n_recoveries": 0,
+    "recovered_chars": 0
+   },
+   {
+    "case_id": "X-NO-F02",
+    "rep": 1,
+    "recoveries": [
+     {
+      "seq": 2,
+      "out_chars": 2673,
+      "path": "runs/fa4fd630c17cc3e8/workdir/.r5-store/a22dd893c8b28a98.txt",
+      "step_input_at": 6057,
+      "step_cache_at": 6976
+     },
+     {
+      "seq": 4,
+      "out_chars": 3056,
+      "path": "runs/fa4fd630c17cc3e8/workdir/.r5-store/06021c18fe948248.txt",
+      "step_input_at": 1240,
+      "step_cache_at": 12992
+     }
+    ],
+    "n_recoveries": 2,
+    "recovered_chars": 5729
+   },
+   {
+    "case_id": "X-NO-F02",
+    "rep": 2,
+    "recoveries": [
+     {
+      "seq": 1,
+      "out_chars": 2673,
+      "path": "runs/2d05e17beb0a0d76/workdir/.r5-store/0fc6e6d1fd22177d.txt",
+      "step_input_at": 9303,
+      "step_cache_at": 0
+     },
+     {
+      "seq": 2,
+      "out_chars": 3056,
+      "path": "runs/2d05e17beb0a0d76/workdir/.r5-store/32662b80966e2f3e.txt",
+      "step_input_at": 828,
+      "step_cache_at": 9280
+     },
+     {
+      "seq": 3,
+      "out_chars": 3324,
+      "path": "runs/2d05e17beb0a0d76/workdir/.r5-store/8d5ca5593c7ffc45.txt",
+      "step_input_at": 1096,
+      "step_cache_at": 10048
+     }
+    ],
+    "n_recoveries": 3,
+    "recovered_chars": 9053
+   },
+   {
+    "case_id": "X-NO-F04",
+    "rep": 1,
+    "recoveries": [
+     {
+      "seq": 1,
+      "out_chars": 2528,
+      "path": "runs/d917ebf5d79681df/workdir/.r5-store/662e9a3a30e1004c.txt",
+      "step_input_at": 9301,
+      "step_cache_at": 0
+     },
+     {
+      "seq": 2,
+      "out_chars": 2884,
+      "path": "runs/d917ebf5d79681df/workdir/.r5-store/47ffac0fb671963d.txt",
+      "step_input_at": 3112,
+      "step_cache_at": 6976
+     }
+    ],
+    "n_recoveries": 2,
+    "recovered_chars": 5412
+   },
+   {
+    "case_id": "X-NO-F04",
+    "rep": 2,
+    "recoveries": [
+     {
+      "seq": 1,
+      "out_chars": 2528,
+      "path": "runs/56fc5cde25c1b521/workdir/.r5-store/4a7fef89d1de7ec2.txt",
+      "step_input_at": 9303,
+      "step_cache_at": 0
+     },
+     {
+      "seq": 2,
+      "out_chars": 2884,
+      "path": "runs/56fc5cde25c1b521/workdir/.r5-store/10687ca187ff430a.txt",
+      "step_input_at": 3114,
+      "step_cache_at": 6976
+     }
+    ],
+    "n_recoveries": 2,
+    "recovered_chars": 5412
+   },
+   {
+    "case_id": "X-HI-M08",
+    "rep": 1,
+    "recoveries": [
+     {
+      "seq": 9,
+      "out_chars": 2157,
+      "path": "runs/739a8309f8f13434/workdir/.r5-store/814c3d91f6e7beb3.txt",
+      "step_input_at": 4851,
+      "step_cache_at": 12544
+     },
+     {
+      "seq": 10,
+      "out_chars": 2144,
+      "path": "runs/739a8309f8f13434/workdir/.r5-store/80b924943742dfe4.txt",
+      "step_input_at": 4851,
+      "step_cache_at": 12544
+     },
+     {
+      "seq": 11,
+      "out_chars": 2204,
+      "path": "runs/739a8309f8f13434/workdir/.r5-store/b39c5e163e2adbb9.txt",
+      "step_input_at": 4851,
+      "step_cache_at": 12544
+     },
+     {
+      "seq": 12,
+      "out_chars": 2227,
+      "path": "runs/739a8309f8f13434/workdir/.r5-store/5a624c8b687d43d9.txt",
+      "step_input_at": 5174,
+      "step_cache_at": 17344
+     },
+     {
+      "seq": 13,
+      "out_chars": 2167,
+      "path": "runs/739a8309f8f13434/workdir/.r5-store/3fff775c4f9f1ed3.txt",
+      "step_input_at": 5174,
+      "step_cache_at": 17344
+     },
+     {
+      "seq": 14,
+      "out_chars": 2218,
+      "path": "runs/739a8309f8f13434/workdir/.r5-store/085a70dd67bb9d26.txt",
+      "step_input_at": 5174,
+      "step_cache_at": 17344
+     },
+     {
+      "seq": 15,
+      "out_chars": 2290,
+      "path": "runs/739a8309f8f13434/workdir/.r5-store/411b38948afd24e5.txt",
+      "step_input_at": 5174,
+      "step_cache_at": 17344
+     }
+    ],
+    "n_recoveries": 7,
+    "recovered_chars": 15407
+   },
+   {
+    "case_id": "X-HI-M08",
+    "rep": 2,
+    "recoveries": [
+     {
+      "seq": 8,
+      "out_chars": 2218,
+      "path": "runs/e0e24e3e79b18264/workdir/.r5-store/d0a5cd106b5d6f90.txt",
+      "step_input_at": 4026,
+      "step_cache_at": 9728
+     },
+     {
+      "seq": 9,
+      "out_chars": 2167,
+      "path": "runs/e0e24e3e79b18264/workdir/.r5-store/6ab31e5c28beb971.txt",
+      "step_input_at": 4026,
+      "step_cache_at": 9728
+     },
+     {
+      "seq": 10,
+      "out_chars": 2227,
+      "path": "runs/e0e24e3e79b18264/workdir/.r5-store/6d47c0d70431d4e1.txt",
+      "step_input_at": 5124,
+      "step_cache_at": 13696
+     },
+     {
+      "seq": 11,
+      "out_chars": 2204,
+      "path": "runs/e0e24e3e79b18264/workdir/.r5-store/b67ccc6e68168693.txt",
+      "step_input_at": 5124,
+      "step_cache_at": 13696
+     },
+     {
+      "seq": 12,
+      "out_chars": 2144,
+      "path": "runs/e0e24e3e79b18264/workdir/.r5-store/dcd32b0441bf10fd.txt",
+      "step_input_at": 5124,
+      "step_cache_at": 13696
+     },
+     {
+      "seq": 13,
+      "out_chars": 2157,
+      "path": "runs/e0e24e3e79b18264/workdir/.r5-store/0a076e684fa188c8.txt",
+      "step_input_at": 5124,
+      "step_cache_at": 13696
+     },
+     {
+      "seq": 14,
+      "out_chars": 3393,
+      "path": "runs/e0e24e3e79b18264/workdir/.r5-store/45bcac4c049e321b.txt",
+      "step_input_at": 2437,
+      "step_cache_at": 18816
+     }
+    ],
+    "n_recoveries": 7,
+    "recovered_chars": 16510
+   },
+   {
+    "case_id": "X-HI-F04",
+    "rep": 1,
+    "recoveries": [
+     {
+      "seq": 1,
+      "out_chars": 2528,
+      "path": "runs/888f74cd6c189aa8/workdir/.r5-store/4fedd7d094375bb9.txt",
+      "step_input_at": 9306,
+      "step_cache_at": 0
+     },
+     {
+      "seq": 2,
+      "out_chars": 2884,
+      "path": "runs/888f74cd6c189aa8/workdir/.r5-store/81d8685ec19a3a35.txt",
+      "step_input_at": 3123,
+      "step_cache_at": 6976
+     }
+    ],
+    "n_recoveries": 2,
+    "recovered_chars": 5412
+   },
+   {
+    "case_id": "X-HI-F04",
+    "rep": 2,
+    "recoveries": [
+     {
+      "seq": 1,
+      "out_chars": 2528,
+      "path": "runs/0d3c75c8956591ce/workdir/.r5-store/aa6c0b2733af53ba.txt",
+      "step_input_at": 3153,
+      "step_cache_at": 6976
+     },
+     {
+      "seq": 2,
+      "out_chars": 2884,
+      "path": "runs/0d3c75c8956591ce/workdir/.r5-store/57ef66c2a1955c71.txt",
+      "step_input_at": 1058,
+      "step_cache_at": 10112
+     }
+    ],
+    "n_recoveries": 2,
+    "recovered_chars": 5412
+   },
+   {
+    "case_id": "X-NO-F10",
+    "rep": 1,
+    "recoveries": [
+     {
+      "seq": 1,
+      "out_chars": 2527,
+      "path": "runs/6336a7f431e65864/workdir/.r5-store/cd693e2af744e603.txt",
+      "step_input_at": 3102,
+      "step_cache_at": 6976
+     },
+     {
+      "seq": 2,
+      "out_chars": 2881,
+      "path": "runs/6336a7f431e65864/workdir/.r5-store/20b031f1ba67d01a.txt",
+      "step_input_at": 1055,
+      "step_cache_at": 10048
+     }
+    ],
+    "n_recoveries": 2,
+    "recovered_chars": 5408
+   },
+   {
+    "case_id": "X-NO-F10",
+    "rep": 2,
+    "recoveries": [
+     {
+      "seq": 2,
+      "out_chars": 2527,
+      "path": "runs/ecd81d38ea698824/workdir/.r5-store/6e4b41c6856b029b.txt",
+      "step_input_at": 1181,
+      "step_cache_at": 9280
+     },
+     {
+      "seq": 3,
+      "out_chars": 2881,
+      "path": "runs/ecd81d38ea698824/workdir/.r5-store/248feb6aa8f6b573.txt",
+      "step_input_at": 1052,
+      "step_cache_at": 10432
+     }
+    ],
+    "n_recoveries": 2,
+    "recovered_chars": 5408
+   },
+   {
+    "case_id": "X-NO-F11",
+    "rep": 1,
+    "recoveries": [
+     {
+      "seq": 2,
+      "out_chars": 2513,
+      "path": "runs/9aff008950485343/workdir/.r5-store/9ff1429d9e96b318.txt",
+      "step_input_at": 1113,
+      "step_cache_at": 10240
+     },
+     {
+      "seq": 3,
+      "out_chars": 2869,
+      "path": "runs/9aff008950485343/workdir/.r5-store/52a000843188c97a.txt",
+      "step_input_at": 1239,
+      "step_cache_at": 11328
+     }
+    ],
+    "n_recoveries": 2,
+    "recovered_chars": 5382
+   },
+   {
+    "case_id": "X-NO-F11",
+    "rep": 2,
+    "recoveries": [
+     {
+      "seq": 1,
+      "out_chars": 2513,
+      "path": "runs/4a89415ad8e4e0dc/workdir/.r5-store/893a31e024556b78.txt",
+      "step_input_at": 810,
+      "step_cache_at": 9280
+     }
+    ],
+    "n_recoveries": 1,
+    "recovered_chars": 2513
+   },
+   {
+    "case_id": "X-HI-F01",
+    "rep": 1,
+    "recoveries": [
+     {
+      "seq": 1,
+      "out_chars": 2747,
+      "path": "runs/f553d9b31d53114d/workdir/.r5-store/4ef9045ee64250d3.txt",
+      "step_input_at": 9309,
+      "step_cache_at": 0
+     },
+     {
+      "seq": 3,
+      "out_chars": 3122,
+      "path": "runs/f553d9b31d53114d/workdir/.r5-store/899d6d3513634d6f.txt",
+      "step_input_at": 1464,
+      "step_cache_at": 10112
+     }
+    ],
+    "n_recoveries": 2,
+    "recovered_chars": 5869
+   },
+   {
+    "case_id": "X-HI-F01",
+    "rep": 2,
+    "recoveries": [
+     {
+      "seq": 1,
+      "out_chars": 2747,
+      "path": "runs/a3b16a6a112674eb/workdir/.r5-store/5e1b24b6868ab7b6.txt",
+      "step_input_at": 9307,
+      "step_cache_at": 0
+     }
+    ],
+    "n_recoveries": 1,
+    "recovered_chars": 2747
+   },
+   {
+    "case_id": "X-NO-F03",
+    "rep": 1,
+    "recoveries": [
+     {
+      "seq": 1,
+      "out_chars": 2620,
+      "path": "runs/1d8ce741cff79740/workdir/.r5-store/918e9a0d0085294c.txt",
+      "step_input_at": 2325,
+      "step_cache_at": 6976
+     }
+    ],
+    "n_recoveries": 1,
+    "recovered_chars": 2620
+   },
+   {
+    "case_id": "X-NO-F03",
+    "rep": 2,
+    "recoveries": [
+     {
+      "seq": 1,
+      "out_chars": 2620,
+      "path": "runs/5b86ef220d221453/workdir/.r5-store/be96f79bea3eae59.txt",
+      "step_input_at": 3116,
+      "step_cache_at": 6976
+     }
+    ],
+    "n_recoveries": 1,
+    "recovered_chars": 2620
+   },
+   {
+    "case_id": "X-NO-T2",
+    "rep": 1,
+    "recoveries": [
+     {
+      "seq": 5,
+      "out_chars": 2260,
+      "path": "runs/212674b8d7576059/workdir/.r5-store/84629d1b252ee988.txt",
+      "step_input_at": 976,
+      "step_cache_at": 12352
+     }
+    ],
+    "n_recoveries": 1,
+    "recovered_chars": 2260
+   },
+   {
+    "case_id": "X-NO-T2",
+    "rep": 2,
+    "recoveries": [
+     {
+      "seq": 3,
+      "out_chars": 2260,
+      "path": "runs/f1eb62b322ae35c3/workdir/.r5-store/f959ef80071338d1.txt",
+      "step_input_at": 678,
+      "step_cache_at": 10048
+     }
+    ],
+    "n_recoveries": 1,
+    "recovered_chars": 2260
+   },
+   {
+    "case_id": "X-HI-M01",
+    "rep": 1,
+    "recoveries": [],
+    "n_recoveries": 0,
+    "recovered_chars": 0
+   },
+   {
+    "case_id": "X-HI-M01",
+    "rep": 2,
+    "recoveries": [],
+    "n_recoveries": 0,
+    "recovered_chars": 0
+   },
+   {
+    "case_id": "X-HI-M06",
+    "rep": 1,
+    "recoveries": [
+     {
+      "seq": 7,
+      "out_chars": 2562,
+      "path": "runs/4d8791d49c002ed2/workdir/.r5-store/32ad410d84a36a33.txt",
+      "step_input_at": 461,
+      "step_cache_at": 9280
+     },
+     {
+      "seq": 8,
+      "out_chars": 2563,
+      "path": "runs/4d8791d49c002ed2/workdir/.r5-store/f23e3315516ac873.txt",
+      "step_input_at": 3716,
+      "step_cache_at": 9728
+     },
+     {
+      "seq": 9,
+      "out_chars": 2612,
+      "path": "runs/4d8791d49c002ed2/workdir/.r5-store/45e3e9aba114d24b.txt",
+      "step_input_at": 3716,
+      "step_cache_at": 9728
+     },
+     {
+      "seq": 10,
+      "out_chars": 2531,
+      "path": "runs/4d8791d49c002ed2/workdir/.r5-store/f3b309847fa38eea.txt",
+      "step_input_at": 3716,
+      "step_cache_at": 9728
+     },
+     {
+      "seq": 11,
+      "out_chars": 2511,
+      "path": "runs/4d8791d49c002ed2/workdir/.r5-store/3e48aaf6984c2ece.txt",
+      "step_input_at": 3716,
+      "step_cache_at": 9728
+     },
+     {
+      "seq": 13,
+      "out_chars": 2382,
+      "path": "runs/4d8791d49c002ed2/workdir/.r5-store/2ba28798aacef06f.txt",
+      "step_input_at": 5138,
+      "step_cache_at": 13440
+     },
+     {
+      "seq": 14,
+      "out_chars": 2346,
+      "path": "runs/4d8791d49c002ed2/workdir/.r5-store/e39e384ddfb226a5.txt",
+      "step_input_at": 5138,
+      "step_cache_at": 13440
+     },
+     {
+      "seq": 16,
+      "out_chars": 3821,
+      "path": "runs/4d8791d49c002ed2/workdir/.r5-store/2ba28798aacef06f.txt",
+      "step_input_at": 2471,
+      "step_cache_at": 18560
+     },
+     {
+      "seq": 17,
+      "out_chars": 3762,
+      "path": "runs/4d8791d49c002ed2/workdir/.r5-store/e39e384ddfb226a5.txt",
+      "step_input_at": 2471,
+      "step_cache_at": 18560
+     },
+     {
+      "seq": 18,
+      "out_chars": 2366,
+      "path": "runs/4d8791d49c002ed2/workdir/.r5-store/6f63c5140e35783e.txt",
+      "step_input_at": 2471,
+      "step_cache_at": 18560
+     },
+     {
+      "seq": 19,
+      "out_chars": 2385,
+      "path": "runs/4d8791d49c002ed2/workdir/.r5-store/962a84cfb7f5e395.txt",
+      "step_input_at": 2471,
+      "step_cache_at": 18560
+     },
+     {
+      "seq": 20,
+      "out_chars": 2341,
+      "path": "runs/4d8791d49c002ed2/workdir/.r5-store/9204b7ab0ac26c02.txt",
+      "step_input_at": 9741,
+      "step_cache_at": 20992
+     }
+    ],
+    "n_recoveries": 12,
+    "recovered_chars": 32182
+   },
+   {
+    "case_id": "X-HI-M06",
+    "rep": 2,
+    "recoveries": [
+     {
+      "seq": 7,
+      "out_chars": 2511,
+      "path": "runs/4e58a38103f6cfc6/workdir/.r5-store/f2be88c1fab73dfa.txt",
+      "step_input_at": 3787,
+      "step_cache_at": 12544
+     },
+     {
+      "seq": 8,
+      "out_chars": 2531,
+      "path": "runs/4e58a38103f6cfc6/workdir/.r5-store/5195135114bbe7b3.txt",
+      "step_input_at": 5099,
+      "step_cache_at": 16320
+     },
+     {
+      "seq": 9,
+      "out_chars": 2612,
+      "path": "runs/4e58a38103f6cfc6/workdir/.r5-store/243f3da65f5a10f7.txt",
+      "step_input_at": 5099,
+      "step_cache_at": 16320
+     },
+     {
+      "seq": 10,
+      "out_chars": 2563,
+      "path": "runs/4e58a38103f6cfc6/workdir/.r5-store/de43e9b4d1510d9b.txt",
+      "step_input_at": 5099,
+      "step_cache_at": 16320
+     },
+     {
+      "seq": 11,
+      "out_chars": 2562,
+      "path": "runs/4e58a38103f6cfc6/workdir/.r5-store/39ade1a16dd229b4.txt",
+      "step_input_at": 2001,
+      "step_cache_at": 21376
+     }
+    ],
+    "n_recoveries": 5,
+    "recovered_chars": 12779
+   },
+   {
+    "case_id": "X-HI-M02",
+    "rep": 1,
+    "recoveries": [
+     {
+      "seq": 17,
+      "out_chars": 2471,
+      "path": "runs/05ec37db96ea43ce/workdir/.r5-store/0ef7e01a2396c816.txt",
+      "step_input_at": 2076,
+      "step_cache_at": 28608
+     },
+     {
+      "seq": 18,
+      "out_chars": 2526,
+      "path": "runs/05ec37db96ea43ce/workdir/.r5-store/1fb5e76f93d03474.txt",
+      "step_input_at": 6406,
+      "step_cache_at": 30656
+     },
+     {
+      "seq": 19,
+      "out_chars": 2480,
+      "path": "runs/05ec37db96ea43ce/workdir/.r5-store/820917df28e52746.txt",
+      "step_input_at": 6406,
+      "step_cache_at": 30656
+     },
+     {
+      "seq": 20,
+      "out_chars": 2519,
+      "path": "runs/05ec37db96ea43ce/workdir/.r5-store/ea3d5157f90e72e8.txt",
+      "step_input_at": 6406,
+      "step_cache_at": 30656
+     },
+     {
+      "seq": 21,
+      "out_chars": 2526,
+      "path": "runs/05ec37db96ea43ce/workdir/.r5-store/49d00f126e071adc.txt",
+      "step_input_at": 2631,
+      "step_cache_at": 37056
+     },
+     {
+      "seq": 22,
+      "out_chars": 2513,
+      "path": "runs/05ec37db96ea43ce/workdir/.r5-store/6305679a4579dbcd.txt",
+      "step_input_at": 2631,
+      "step_cache_at": 37056
+     },
+     {
+      "seq": 23,
+      "out_chars": 2254,
+      "path": "runs/05ec37db96ea43ce/workdir/.r5-store/a513279e12858bbc.txt",
+      "step_input_at": 2631,
+      "step_cache_at": 37056
+     }
+    ],
+    "n_recoveries": 7,
+    "recovered_chars": 17289
+   },
+   {
+    "case_id": "X-HI-M02",
+    "rep": 2,
+    "recoveries": [
+     {
+      "seq": 17,
+      "out_chars": 2499,
+      "path": "runs/e9130e493876d770/workdir/.r5-store/8099252b5dc285c8.txt",
+      "step_input_at": 2132,
+      "step_cache_at": 23296
+     },
+     {
+      "seq": 18,
+      "out_chars": 2471,
+      "path": "runs/e9130e493876d770/workdir/.r5-store/9c84e37038ff4d26.txt",
+      "step_input_at": 2172,
+      "step_cache_at": 25408
+     }
+    ],
+    "n_recoveries": 2,
+    "recovered_chars": 4970
+   },
+   {
+    "case_id": "X-HI-M07",
+    "rep": 1,
+    "recoveries": [
+     {
+      "seq": 8,
+      "out_chars": 2213,
+      "path": "runs/b881ac27bea4f7a6/workdir/.r5-store/f8e76185fc92b117.txt",
+      "step_input_at": 1864,
+      "step_cache_at": 13888
+     },
+     {
+      "seq": 9,
+      "out_chars": 2206,
+      "path": "runs/b881ac27bea4f7a6/workdir/.r5-store/50eb55c10cef186e.txt",
+      "step_input_at": 1864,
+      "step_cache_at": 13888
+     }
+    ],
+    "n_recoveries": 2,
+    "recovered_chars": 4419
+   },
+   {
+    "case_id": "X-HI-M07",
+    "rep": 2,
+    "recoveries": [
+     {
+      "seq": 8,
+      "out_chars": 2213,
+      "path": "runs/4a1863ea362b1bf5/workdir/.r5-store/231ec6140bbad9a6.txt",
+      "step_input_at": 5590,
+      "step_cache_at": 16512
+     },
+     {
+      "seq": 9,
+      "out_chars": 2206,
+      "path": "runs/4a1863ea362b1bf5/workdir/.r5-store/afa6f54be33ee671.txt",
+      "step_input_at": 5590,
+      "step_cache_at": 16512
+     },
+     {
+      "seq": 10,
+      "out_chars": 2202,
+      "path": "runs/4a1863ea362b1bf5/workdir/.r5-store/ef3e8f7c0f84a489.txt",
+      "step_input_at": 5590,
+      "step_cache_at": 16512
+     },
+     {
+      "seq": 11,
+      "out_chars": 2274,
+      "path": "runs/4a1863ea362b1bf5/workdir/.r5-store/48318b5c03e4638a.txt",
+      "step_input_at": 1914,
+      "step_cache_at": 22080
+     },
+     {
+      "seq": 12,
+      "out_chars": 2200,
+      "path": "runs/4a1863ea362b1bf5/workdir/.r5-store/1704bb113c1b8ba7.txt",
+      "step_input_at": 1914,
+      "step_cache_at": 22080
+     },
+     {
+      "seq": 13,
+      "out_chars": 2200,
+      "path": "runs/4a1863ea362b1bf5/workdir/.r5-store/f3d9863570e0e158.txt",
+      "step_input_at": 1914,
+      "step_cache_at": 22080
+     }
+    ],
+    "n_recoveries": 6,
+    "recovered_chars": 13295
+   },
+   {
+    "case_id": "X-NO-T1",
+    "rep": 1,
+    "recoveries": [
+     {
+      "seq": 3,
+      "out_chars": 2260,
+      "path": "runs/31a076ff13a00577/workdir/.r5-store/558c42e771c8c073.txt",
+      "step_input_at": 681,
+      "step_cache_at": 10048
+     }
+    ],
+    "n_recoveries": 1,
+    "recovered_chars": 2260
+   },
+   {
+    "case_id": "X-NO-T1",
+    "rep": 2,
+    "recoveries": [],
+    "n_recoveries": 0,
+    "recovered_chars": 0
+   },
+   {
+    "case_id": "X-NO-F06",
+    "rep": 1,
+    "recoveries": [
+     {
+      "seq": 1,
+      "out_chars": 2526,
+      "path": "runs/30f7fae0ea3b37a1/workdir/.r5-store/5e4c65b9d60a0f92.txt",
+      "step_input_at": 828,
+      "step_cache_at": 9280
+     },
+     {
+      "seq": 2,
+      "out_chars": 2882,
+      "path": "runs/30f7fae0ea3b37a1/workdir/.r5-store/73415b3327fa958a.txt",
+      "step_input_at": 1088,
+      "step_cache_at": 10048
+     }
+    ],
+    "n_recoveries": 2,
+    "recovered_chars": 5408
+   },
+   {
+    "case_id": "X-NO-F06",
+    "rep": 2,
+    "recoveries": [
+     {
+      "seq": 2,
+      "out_chars": 2526,
+      "path": "runs/a59c94bba1bba12f/workdir/.r5-store/4497f5df420c4528.txt",
+      "step_input_at": 1436,
+      "step_cache_at": 9280
+     },
+     {
+      "seq": 3,
+      "out_chars": 2882,
+      "path": "runs/a59c94bba1bba12f/workdir/.r5-store/a91792699bccd92b.txt",
+      "step_input_at": 1047,
+      "step_cache_at": 10688
+     }
+    ],
+    "n_recoveries": 2,
+    "recovered_chars": 5408
+   },
+   {
+    "case_id": "X-LO-F03",
+    "rep": 1,
+    "recoveries": [],
+    "n_recoveries": 0,
+    "recovered_chars": 0
+   },
+   {
+    "case_id": "X-LO-F03",
+    "rep": 2,
+    "recoveries": [],
+    "n_recoveries": 0,
+    "recovered_chars": 0
+   },
+   {
+    "case_id": "X-HI-M03",
+    "rep": 1,
+    "recoveries": [],
+    "n_recoveries": 0,
+    "recovered_chars": 0
+   },
+   {
+    "case_id": "X-HI-M03",
+    "rep": 2,
+    "recoveries": [
+     {
+      "seq": 6,
+      "out_chars": 2260,
+      "path": "runs/7b953487f66b2da6/workdir/.r5-store/0f2938f5232716b6.txt",
+      "step_input_at": 3976,
+      "step_cache_at": 12928
+     },
+     {
+      "seq": 7,
+      "out_chars": 2213,
+      "path": "runs/7b953487f66b2da6/workdir/.r5-store/783ed64991384813.txt",
+      "step_input_at": 3976,
+      "step_cache_at": 12928
+     },
+     {
+      "seq": 8,
+      "out_chars": 2819,
+      "path": "runs/7b953487f66b2da6/workdir/.r5-store/5f341c6549b0ee2b.txt",
+      "step_input_at": 1668,
+      "step_cache_at": 16896
+     },
+     {
+      "seq": 9,
+      "out_chars": 2239,
+      "path": "runs/7b953487f66b2da6/workdir/.r5-store/67c98802bac8b1bf.txt",
+      "step_input_at": 1668,
+      "step_cache_at": 16896
+     }
+    ],
+    "n_recoveries": 4,
+    "recovered_chars": 9531
+   },
+   {
+    "case_id": "X-LO-XS1",
+    "rep": 1,
+    "recoveries": [],
+    "n_recoveries": 0,
+    "recovered_chars": 0
+   },
+   {
+    "case_id": "X-LO-XS1",
+    "rep": 2,
+    "recoveries": [],
+    "n_recoveries": 0,
+    "recovered_chars": 0
+   },
+   {
+    "case_id": "X-HI-F02",
+    "rep": 1,
+    "recoveries": [
+     {
+      "seq": 2,
+      "out_chars": 2673,
+      "path": "runs/0799c03802a13ec1/workdir/.r5-store/b9ee07615791bff4.txt",
+      "step_input_at": 3742,
+      "step_cache_at": 9280
+     }
+    ],
+    "n_recoveries": 1,
+    "recovered_chars": 2673
+   },
+   {
+    "case_id": "X-HI-F02",
+    "rep": 2,
+    "recoveries": [
+     {
+      "seq": 1,
+      "out_chars": 2673,
+      "path": "runs/5dc45bd4e891ef17/workdir/.r5-store/c56116be966ac68f.txt",
+      "step_input_at": 9308,
+      "step_cache_at": 0
+     }
+    ],
+    "n_recoveries": 1,
+    "recovered_chars": 2673
+   },
+   {
+    "case_id": "X-NO-F12",
+    "rep": 1,
+    "recoveries": [
+     {
+      "seq": 1,
+      "out_chars": 2599,
+      "path": "runs/cb86836bd4829c74/workdir/.r5-store/cc279ca94b3f6072.txt",
+      "step_input_at": 3092,
+      "step_cache_at": 6976
+     },
+     {
+      "seq": 2,
+      "out_chars": 2956,
+      "path": "runs/cb86836bd4829c74/workdir/.r5-store/3d3d310b114780f4.txt",
+      "step_input_at": 1035,
+      "step_cache_at": 10048
+     }
+    ],
+    "n_recoveries": 2,
+    "recovered_chars": 5555
+   },
+   {
+    "case_id": "X-NO-F12",
+    "rep": 2,
+    "recoveries": [
+     {
+      "seq": 1,
+      "out_chars": 2599,
+      "path": "runs/88afa602692301fb/workdir/.r5-store/fc4921ac725f7c0a.txt",
+      "step_input_at": 9293,
+      "step_cache_at": 0
+     }
+    ],
+    "n_recoveries": 1,
+    "recovered_chars": 2599
+   },
+   {
+    "case_id": "X-NO-F01",
+    "rep": 1,
+    "recoveries": [
+     {
+      "seq": 2,
+      "out_chars": 2747,
+      "path": "runs/44bf9b4ed21d4111/workdir/.r5-store/9b9cda61d1089f4e.txt",
+      "step_input_at": 3515,
+      "step_cache_at": 6976
+     },
+     {
+      "seq": 3,
+      "out_chars": 3122,
+      "path": "runs/44bf9b4ed21d4111/workdir/.r5-store/a7667a773773f7c1.txt",
+      "step_input_at": 1128,
+      "step_cache_at": 10432
+     }
+    ],
+    "n_recoveries": 2,
+    "recovered_chars": 5869
+   },
+   {
+    "case_id": "X-NO-F01",
+    "rep": 2,
+    "recoveries": [
+     {
+      "seq": 2,
+      "out_chars": 2747,
+      "path": "runs/334e3ee143ec9456/workdir/.r5-store/5a44c59c33ce9f07.txt",
+      "step_input_at": 3510,
+      "step_cache_at": 6976
+     }
+    ],
+    "n_recoveries": 1,
+    "recovered_chars": 2747
+   },
+   {
+    "case_id": "X-NO-F05",
+    "rep": 1,
+    "recoveries": [
+     {
+      "seq": 1,
+      "out_chars": 2526,
+      "path": "runs/dfe6344233495bd8/workdir/.r5-store/efe045e6c6a64723.txt",
+      "step_input_at": 3105,
+      "step_cache_at": 6976
+     },
+     {
+      "seq": 2,
+      "out_chars": 2881,
+      "path": "runs/dfe6344233495bd8/workdir/.r5-store/3903a2d5cc78fe81.txt",
+      "step_input_at": 1048,
+      "step_cache_at": 10048
+     }
+    ],
+    "n_recoveries": 2,
+    "recovered_chars": 5407
+   },
+   {
+    "case_id": "X-NO-F05",
+    "rep": 2,
+    "recoveries": [
+     {
+      "seq": 1,
+      "out_chars": 2526,
+      "path": "runs/dec45cf07b38e939/workdir/.r5-store/c30d76f62e3e3b1c.txt",
+      "step_input_at": 798,
+      "step_cache_at": 9280
+     },
+     {
+      "seq": 2,
+      "out_chars": 2881,
+      "path": "runs/dec45cf07b38e939/workdir/.r5-store/35598b2576a4d1a8.txt",
+      "step_input_at": 1044,
+      "step_cache_at": 10048
+     }
+    ],
+    "n_recoveries": 2,
+    "recovered_chars": 5407
+   },
+   {
+    "case_id": "X-HI-F03",
+    "rep": 1,
+    "recoveries": [
+     {
+      "seq": 2,
+      "out_chars": 2620,
+      "path": "runs/fbd6fc13da88a0c7/workdir/.r5-store/bf76a65b78940a98.txt",
+      "step_input_at": 1167,
+      "step_cache_at": 9280
+     }
+    ],
+    "n_recoveries": 1,
+    "recovered_chars": 2620
+   },
+   {
+    "case_id": "X-HI-F03",
+    "rep": 2,
+    "recoveries": [
+     {
+      "seq": 2,
+      "out_chars": 2620,
+      "path": "runs/e14276637b4f8e4d/workdir/.r5-store/07dc4e0c5036938d.txt",
+      "step_input_at": 3730,
+      "step_cache_at": 9280
+     },
+     {
+      "seq": 4,
+      "out_chars": 3001,
+      "path": "runs/e14276637b4f8e4d/workdir/.r5-store/ecfb3e08c768a3e3.txt",
+      "step_input_at": 1291,
+      "step_cache_at": 12992
+     }
+    ],
+    "n_recoveries": 2,
+    "recovered_chars": 5621
+   }
+  ]
+ },
+ "S4_d3_census": {
+  "sessions": 15000,
+  "total_obs_chars": 1239474486,
+  "P1": {
+   "triggered": 3221,
+   "chars_before": 22645605,
+   "chars_saved": 1861278
+  },
+  "P2": {
+   "triggered": 52719,
+   "chars_before": 605022976,
+   "chars_after": 239118372,
+   "chars_saved": 365904604
+  },
+  "naming": "OPPORTUNITY PROXY on second workload (D3 corpus)"
+ },
+ "S5_diag_audit_sample": {
+  "n_sampled": 30,
+  "samples": [
+   {
+    "case_id": "X-HI-M05",
+    "run_id": "a302a9c17cfbaba5",
+    "retained_diag_count": 27,
+    "diag_sample": [
+     "11: let lastError = null;",
+     "15: // - 内部错误会记录到 lastError",
+     "26:   } catch (error) {",
+     "27:     lastError = error;",
+     "28:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M05",
+    "run_id": "a302a9c17cfbaba5",
+    "retained_diag_count": 27,
+    "diag_sample": [
+     "11: let lastError = null;",
+     "15: // - 内部错误会记录到 lastError",
+     "26:   } catch (error) {",
+     "27:     lastError = error;",
+     "28:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M05",
+    "run_id": "a302a9c17cfbaba5",
+    "retained_diag_count": 27,
+    "diag_sample": [
+     "12: let lastError = null;",
+     "16: // - 内部错误会记录到 lastError",
+     "27:   } catch (error) {",
+     "28:     lastError = error;",
+     "29:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M05",
+    "run_id": "a302a9c17cfbaba5",
+    "retained_diag_count": 27,
+    "diag_sample": [
+     "11: let lastError = null;",
+     "15: // - 内部错误会记录到 lastError",
+     "26:   } catch (error) {",
+     "27:     lastError = error;",
+     "28:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M05",
+    "run_id": "a302a9c17cfbaba5",
+    "retained_diag_count": 21,
+    "diag_sample": [
+     "11: let lastError = null;",
+     "15: // - 内部错误会记录到 lastError",
+     "26:   } catch (error) {",
+     "27:     lastError = error;",
+     "28:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M05",
+    "run_id": "a302a9c17cfbaba5",
+    "retained_diag_count": 27,
+    "diag_sample": [
+     "11: let lastError = null;",
+     "15: // - 内部错误会记录到 lastError",
+     "26:   } catch (error) {",
+     "27:     lastError = error;",
+     "28:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M05",
+    "run_id": "a302a9c17cfbaba5",
+    "retained_diag_count": 27,
+    "diag_sample": [
+     "14: 11: let lastError = null;",
+     "18: 15: // - 内部错误会记录到 lastError",
+     "29: 26:   } catch (error) {",
+     "30: 27:     lastError = error;",
+     "31: 28:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M05",
+    "run_id": "a302a9c17cfbaba5",
+    "retained_diag_count": 27,
+    "diag_sample": [
+     "14: 11: let lastError = null;",
+     "18: 15: // - 内部错误会记录到 lastError",
+     "29: 26:   } catch (error) {",
+     "30: 27:     lastError = error;",
+     "31: 28:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M05",
+    "run_id": "a302a9c17cfbaba5",
+    "retained_diag_count": 27,
+    "diag_sample": [
+     "17: 14: 11: let lastError = null;",
+     "21: 18: 15: // - 内部错误会记录到 lastError",
+     "32: 29: 26:   } catch (error) {",
+     "33: 30: 27:     lastError = error;",
+     "34: 31: 28:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M05",
+    "run_id": "a302a9c17cfbaba5",
+    "retained_diag_count": 27,
+    "diag_sample": [
+     "13: let lastError = null;",
+     "17: // - 内部错误会记录到 lastError",
+     "28:   } catch (error) {",
+     "29:     lastError = error;",
+     "30:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M05",
+    "run_id": "ce499899267508a5",
+    "retained_diag_count": 27,
+    "diag_sample": [
+     "11: let lastError = null;",
+     "15: // - 内部错误会记录到 lastError",
+     "26:   } catch (error) {",
+     "27:     lastError = error;",
+     "28:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M05",
+    "run_id": "ce499899267508a5",
+    "retained_diag_count": 21,
+    "diag_sample": [
+     "11: let lastError = null;",
+     "15: // - 内部错误会记录到 lastError",
+     "26:   } catch (error) {",
+     "27:     lastError = error;",
+     "28:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M05",
+    "run_id": "ce499899267508a5",
+    "retained_diag_count": 27,
+    "diag_sample": [
+     "11: let lastError = null;",
+     "15: // - 内部错误会记录到 lastError",
+     "26:   } catch (error) {",
+     "27:     lastError = error;",
+     "28:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M05",
+    "run_id": "ce499899267508a5",
+    "retained_diag_count": 27,
+    "diag_sample": [
+     "12: let lastError = null;",
+     "16: // - 内部错误会记录到 lastError",
+     "27:   } catch (error) {",
+     "28:     lastError = error;",
+     "29:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M05",
+    "run_id": "ce499899267508a5",
+    "retained_diag_count": 27,
+    "diag_sample": [
+     "11: let lastError = null;",
+     "15: // - 内部错误会记录到 lastError",
+     "26:   } catch (error) {",
+     "27:     lastError = error;",
+     "28:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M05",
+    "run_id": "ce499899267508a5",
+    "retained_diag_count": 27,
+    "diag_sample": [
+     "11: let lastError = null;",
+     "15: // - 内部错误会记录到 lastError",
+     "26:   } catch (error) {",
+     "27:     lastError = error;",
+     "28:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M05",
+    "run_id": "ce499899267508a5",
+    "retained_diag_count": 27,
+    "diag_sample": [
+     "14: 11: let lastError = null;",
+     "18: 15: // - 内部错误会记录到 lastError",
+     "29: 26:   } catch (error) {",
+     "30: 27:     lastError = error;",
+     "31: 28:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M05",
+    "run_id": "ce499899267508a5",
+    "retained_diag_count": 21,
+    "diag_sample": [
+     "14: 11: let lastError = null;",
+     "18: 15: // - 内部错误会记录到 lastError",
+     "29: 26:   } catch (error) {",
+     "30: 27:     lastError = error;",
+     "31: 28:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M05",
+    "run_id": "ce499899267508a5",
+    "retained_diag_count": 27,
+    "diag_sample": [
+     "14: 11: let lastError = null;",
+     "18: 15: // - 内部错误会记录到 lastError",
+     "29: 26:   } catch (error) {",
+     "30: 27:     lastError = error;",
+     "31: 28:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M05",
+    "run_id": "ce499899267508a5",
+    "retained_diag_count": 27,
+    "diag_sample": [
+     "15: 12: let lastError = null;",
+     "19: 16: // - 内部错误会记录到 lastError",
+     "30: 27:   } catch (error) {",
+     "31: 28:     lastError = error;",
+     "32: 29:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M05",
+    "run_id": "ce499899267508a5",
+    "retained_diag_count": 27,
+    "diag_sample": [
+     "14: 11: let lastError = null;",
+     "18: 15: // - 内部错误会记录到 lastError",
+     "29: 26:   } catch (error) {",
+     "30: 27:     lastError = error;",
+     "31: 28:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M05",
+    "run_id": "ce499899267508a5",
+    "retained_diag_count": 27,
+    "diag_sample": [
+     "14: 11: let lastError = null;",
+     "18: 15: // - 内部错误会记录到 lastError",
+     "29: 26:   } catch (error) {",
+     "30: 27:     lastError = error;",
+     "31: 28:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M05",
+    "run_id": "ce499899267508a5",
+    "retained_diag_count": 27,
+    "diag_sample": [
+     "13: let lastError = null;",
+     "17: // - 内部错误会记录到 lastError",
+     "28:   } catch (error) {",
+     "29:     lastError = error;",
+     "30:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M04",
+    "run_id": "2e2bda501b5f1865",
+    "retained_diag_count": 29,
+    "diag_sample": [
+     "4: // 依赖:cache, errors",
+     "9: const errors = require(\"./errors\");",
+     "12: let lastError = null;",
+     "16: // - 内部错误会记录到 lastError",
+     "27:   } catch (error) {"
+    ]
+   },
+   {
+    "case_id": "X-HI-M04",
+    "run_id": "2e2bda501b5f1865",
+    "retained_diag_count": 27,
+    "diag_sample": [
+     "12: let lastError = null;",
+     "16: // - 内部错误会记录到 lastError",
+     "27:   } catch (error) {",
+     "28:     lastError = error;",
+     "29:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M04",
+    "run_id": "2e2bda501b5f1865",
+    "retained_diag_count": 27,
+    "diag_sample": [
+     "11: let lastError = null;",
+     "15: // - 内部错误会记录到 lastError",
+     "26:   } catch (error) {",
+     "27:     lastError = error;",
+     "28:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M04",
+    "run_id": "2e2bda501b5f1865",
+    "retained_diag_count": 36,
+    "diag_sample": [
+     "3: // 职责:logInfo、logWarn、logError、flush",
+     "11: let lastError = null;",
+     "15: // - 内部错误会记录到 lastError",
+     "26:   } catch (error) {",
+     "27:     lastError = error;"
+    ]
+   },
+   {
+    "case_id": "X-HI-M04",
+    "run_id": "2e2bda501b5f1865",
+    "retained_diag_count": 29,
+    "diag_sample": [
+     "7: 4: // 依赖:cache, errors",
+     "12: 9: const errors = require(\"./errors\");",
+     "15: 12: let lastError = null;",
+     "19: 16: // - 内部错误会记录到 lastError",
+     "30: 27:   } catch (error) {"
+    ]
+   },
+   {
+    "case_id": "X-HI-M04",
+    "run_id": "2e2bda501b5f1865",
+    "retained_diag_count": 27,
+    "diag_sample": [
+     "15: 12: let lastError = null;",
+     "19: 16: // - 内部错误会记录到 lastError",
+     "30: 27:   } catch (error) {",
+     "31: 28:     lastError = error;",
+     "32: 29:     return { ok: false, error: String(error && error.message) };"
+    ]
+   },
+   {
+    "case_id": "X-HI-M04",
+    "run_id": "2e2bda501b5f1865",
+    "retained_diag_count": 27,
+    "diag_sample": [
+     "14: 11: let lastError = null;",
+     "18: 15: // - 内部错误会记录到 lastError",
+     "29: 26:   } catch (error) {",
+     "30: 27:     lastError = error;",
+     "31: 28:     return { ok: false, error: String(error && error.message) };"
+    ]
+   }
+  ],
+  "analyst_note": "retained diagnostic lines are verbatim from the original mid-section; mechanical count preservation already verified (24/24 tests); human blind review pending"
+ }
+}

@@ -1,0 +1,311 @@
+{
+ "verifier": {
+  "verdict": "PASS",
+  "checks": {
+   "C1_pairing_complete": true,
+   "C2_arm_equivalence": true,
+   "C3_marker_discipline": true,
+   "C4_success_parity": true,
+   "C5_provenance_ledger": true
+  },
+  "evidence": {
+   "C1": {
+    "records": 60,
+    "missing": []
+   },
+   "C2": [],
+   "C3": {
+    "B_leaks": [],
+    "T_missing_telemetry": []
+   },
+   "C4": {
+    "B_rate": 0.8,
+    "T_rate": 0.8,
+    "B_pass_T_fail": [
+     "R-XS-NOTIF-PIPE",
+     "R-UNITAGG"
+    ],
+    "B_fail_T_pass": [
+     "R-FIL04",
+     "R-SP-XPAY"
+    ]
+   },
+   "C5": {
+    "bad": []
+   }
+  }
+ },
+ "analysis": {
+  "n_pairs": 30,
+  "primary_input_reduction": 0.0289,
+  "flow_reduction": 0.1568,
+  "totals": {
+   "B_input": 670090,
+   "T_input": 650745,
+   "B_flow": 6245892,
+   "T_flow": 5266330
+  },
+  "paired_flow_delta": {
+   "mean": -0.2425,
+   "median": -0.0025,
+   "win_loss_tie": [
+    14,
+    15,
+    1
+   ]
+  },
+  "rds_T": {
+   "compressed_cases": 2,
+   "compressed_events": 2
+  },
+  "per_family": {
+   "cross-spec": {
+    "n": 3,
+    "flow_reduction": -1.0371,
+    "input_reduction": -0.2826,
+    "B_pass": 2,
+    "T_pass": 2,
+    "rds_compressed_mean": 0,
+    "win_loss_tie": [
+     0,
+     3,
+     0
+    ]
+   },
+   "file-review": {
+    "n": 8,
+    "flow_reduction": -0.0488,
+    "input_reduction": 0.0218,
+    "B_pass": 7,
+    "T_pass": 8,
+    "rds_compressed_mean": 0,
+    "win_loss_tie": [
+     5,
+     3,
+     0
+    ]
+   },
+   "module-analysis": {
+    "n": 8,
+    "flow_reduction": -0.1446,
+    "input_reduction": -0.027,
+    "B_pass": 4,
+    "T_pass": 4,
+    "rds_compressed_mean": 0,
+    "win_loss_tie": [
+     2,
+     6,
+     0
+    ]
+   },
+   "mutation-testfix": {
+    "n": 8,
+    "flow_reduction": 0.2983,
+    "input_reduction": 0.103,
+    "B_pass": 8,
+    "T_pass": 7,
+    "rds_compressed_mean": 0.25,
+    "win_loss_tie": [
+     5,
+     3,
+     0
+    ]
+   },
+   "spec-analysis": {
+    "n": 3,
+    "flow_reduction": 0.4369,
+    "input_reduction": 0.0142,
+    "B_pass": 3,
+    "T_pass": 3,
+    "rds_compressed_mean": 0,
+    "win_loss_tie": [
+     2,
+     0,
+     1
+    ]
+   }
+  },
+  "tool_calls": {
+   "R-EXEC09": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-FIL01": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-FIL02": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-FIL03": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-FIL04": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-FIL05": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-FIL06": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-FIL07": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-FIL08": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-MOD01": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-MOD02": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-MOD03": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-MOD04": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-MOD05": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-MOD06": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-MOD07": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-MOD08": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-NPMEN": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-NPMTR": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-SEED": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-SP-CACHE": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-SP-NOTIF": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-SP-PAY": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-SP-XPAY": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-TDD-CACHE": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-TDD-CONF": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-TDD-INVAL": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-UNITAGG": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-XS-AUTH-REP": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   },
+   "R-XS-NOTIF-PIPE": {
+    "B_calls": 0,
+    "T_calls": 0,
+    "B_reads": 0,
+    "T_reads": 0
+   }
+  }
+ }
+}

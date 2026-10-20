@@ -1,0 +1,134 @@
+{
+ "authoritative_record": "latex/tables/table3_claim_audit.md",
+ "claim_count": 15,
+ "unique": true,
+ "levels_sum_15": true,
+ "level_counts": {
+  "SS": 7,
+  "SWL": 4,
+  "H": 2,
+  "U": 2
+ },
+ "cross_document": {
+  "C1": {
+   "level": "SS",
+   "in_mapping": true,
+   "in_tex": true,
+   "in_readiness": true,
+   "in_v1_audit": true
+  },
+  "C2": {
+   "level": "SS",
+   "in_mapping": true,
+   "in_tex": true,
+   "in_readiness": true,
+   "in_v1_audit": true
+  },
+  "C3": {
+   "level": "SS",
+   "in_mapping": true,
+   "in_tex": true,
+   "in_readiness": true,
+   "in_v1_audit": true
+  },
+  "C4": {
+   "level": "SS",
+   "in_mapping": true,
+   "in_tex": true,
+   "in_readiness": true,
+   "in_v1_audit": true
+  },
+  "C5": {
+   "level": "SWL",
+   "in_mapping": true,
+   "in_tex": true,
+   "in_readiness": true,
+   "in_v1_audit": true
+  },
+  "C6": {
+   "level": "SWL",
+   "in_mapping": true,
+   "in_tex": true,
+   "in_readiness": true,
+   "in_v1_audit": true
+  },
+  "C7": {
+   "level": "SS",
+   "in_mapping": true,
+   "in_tex": true,
+   "in_readiness": true,
+   "in_v1_audit": true
+  },
+  "C8": {
+   "level": "SS",
+   "in_mapping": true,
+   "in_tex": true,
+   "in_readiness": true,
+   "in_v1_audit": true
+  },
+  "C9": {
+   "level": "SS",
+   "in_mapping": true,
+   "in_tex": true,
+   "in_readiness": true,
+   "in_v1_audit": true
+  },
+  "C10": {
+   "level": "SWL",
+   "in_mapping": true,
+   "in_tex": true,
+   "in_readiness": true,
+   "in_v1_audit": true
+  },
+  "C11": {
+   "level": "SWL",
+   "in_mapping": true,
+   "in_tex": true,
+   "in_readiness": true,
+   "in_v1_audit": true
+  },
+  "C12": {
+   "level": "H",
+   "in_mapping": true,
+   "in_tex": true,
+   "in_readiness": true,
+   "in_v1_audit": true
+  },
+  "C13": {
+   "level": "H",
+   "in_mapping": true,
+   "in_tex": true,
+   "in_readiness": true,
+   "in_v1_audit": true
+  },
+  "C14": {
+   "level": "U",
+   "in_mapping": true,
+   "in_tex": true,
+   "in_readiness": true,
+   "in_v1_audit": true
+  },
+  "C15": {
+   "level": "U",
+   "in_mapping": true,
+   "in_tex": true,
+   "in_readiness": true,
+   "in_v1_audit": true
+  }
+ },
+ "all_in_mapping": true,
+ "all_in_tex": true,
+ "all_in_readiness": true,
+ "grade_evolution_v1_to_v3": {
+  "C8": {
+   "v1": "SWL",
+   "v3": "SS"
+  },
+  "C11": {
+   "v1": "H",
+   "v3": "SWL"
+  }
+ },
+ "v1_counts_note": "v1 audit (step4-claim-audit.md): 15 rows, 6 SS + 4 SWL + 3 H + 2 U = 15 (arithmetic OK); v3 changes are EVIDENCE-BASED upgrades (C8: sigma_w CI measured; C11: D3 census measured), not arithmetic corrections",
+ "correction_record": "see grade_evolution_v1_to_v3; no historical file modified"
+}

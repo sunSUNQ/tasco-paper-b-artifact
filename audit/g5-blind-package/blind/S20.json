@@ -1,0 +1,79 @@
+{
+ "sample_id": "S20",
+ "in_context_text": "<path>D:\\tasco-temp\\research-semantic-compression\\r5\\expansion\\runs\\ce499899267508a5\\workdir\\src\\controllers\\auth_controller.js</path>\n<type>file</type>\n<content>\n1: // ============================================================================\n2: // src/controllers/auth_controller.js — auth_controller\n3: // 职责:token、refresh、revoke、verify\n4: // 依赖:services.auth_service\n5: // ============================================================================\n6: \"use strict\";\n7: \n8: const auth_service = require(\"./auth_service\");\n9: \n10: const MODULE_NAME = \"auth_controller\";\n11: let lastError = null;\n12: \n13: // token:处理输入、调用依赖并返回归一化结果。\n14: // - 空输入返回 null\n15: // - 内部错误会记录到 lastError\n16: // - 结果统一为 { ok, value, cost } 结构\n17: function token(input) {\n[VIEW-STORED: lines 21..198 omitted (5659 chars); sha16=0f7965aed9ab2c13; full original: .r5-store/0f7965aed9ab2c13.txt; recover: read that file, or ask for specific lines]\n[VIEW-STORED critical lines retained verbatim:]\n26:   } catch (error) {\n27:     lastError = error;\n28:     return { ok: false, error: String(error && error.message) };\n50:     } catch (error) {\n51:       lastError = error;\n60: // - 内部错误会记录到 lastError\n71:   } catch (error) {\n72:     lastError = error;\n73:     return { ok: false, error: String(error && error.message) };\n95:     } catch (error) {\n96:       lastError = error;\n105: // - 内部错误会记录到 lastError\n116:   } catch (error) {\n117:     lastError = error;\n118:     return { ok: false, error: String(error && error.message) };\n140:     } catch (error) {\n141:       lastError = error;\n150: // - 内部错误会记录到 lastError\n161:   } catch (error) {\n162:     lastError = error;\n163:     return { ok: false, error: String(error && error.message) };\n185:     } catch (error) {\n186:       lastError = error;\n196:     exported: [\"token\", \"tokenWithOptions\", \"refresh\", \"refreshWithOptions\", \"revoke\", \"revokeWithOptions\", \"verify\", \"verifyWithOptions\"],\n197:     healthy: lastError === null,\n198:     lastError: lastError ? String(lastError && lastError.message) : null,\n199:   };\n200: }\n201: \n202: module.exports = {\n203:   describeModule,\n204:   token,\n205:   tokenWithOptions,\n206:   refresh,\n207:   refreshWithOptions,\n208:   revoke,\n209:   revokeWithOptions,\n210:   verify,\n211:   verifyWithOptions\n212: };\n\n(End of file - total 212 lines)\n</content>",
+ "side_store_originals": [
+  {
+   "store_file": "0f7965aed9ab2c13.txt",
+   "sha16": "0f7965aed9ab2c13",
+   "chars": 7374
+  },
+  {
+   "store_file": "1b74eb9caa1c76c4.txt",
+   "sha16": "1b74eb9caa1c76c4",
+   "chars": 8559
+  },
+  {
+   "store_file": "273614e2fdf056a3.txt",
+   "sha16": "273614e2fdf056a3",
+   "chars": 7538
+  },
+  {
+   "store_file": "285aceabfdd88984.txt",
+   "sha16": "285aceabfdd88984",
+   "chars": 7394
+  },
+  {
+   "store_file": "36c960a88415e347.txt",
+   "sha16": "36c960a88415e347",
+   "chars": 7487
+  },
+  {
+   "store_file": "414e2ee07491c347.txt",
+   "sha16": "414e2ee07491c347",
+   "chars": 8600
+  },
+  {
+   "store_file": "4fe8a5c62c0bbbd6.txt",
+   "sha16": "4fe8a5c62c0bbbd6",
+   "chars": 7415
+  },
+  {
+   "store_file": "601e807655a4f306.txt",
+   "sha16": "601e807655a4f306",
+   "chars": 7498
+  },
+  {
+   "store_file": "8283fae2a3204b29.txt",
+   "sha16": "8283fae2a3204b29",
+   "chars": 6744
+  },
+  {
+   "store_file": "88b320552da6815f.txt",
+   "sha16": "88b320552da6815f",
+   "chars": 8728
+  },
+  {
+   "store_file": "d9a1a011d2bd5044.txt",
+   "sha16": "d9a1a011d2bd5044",
+   "chars": 5794
+  },
+  {
+   "store_file": "dd9ef5c80b791d96.txt",
+   "sha16": "dd9ef5c80b791d96",
+   "chars": 8579
+  },
+  {
+   "store_file": "eb7f3e34e2e326ca.txt",
+   "sha16": "eb7f3e34e2e326ca",
+   "chars": 8683
+  }
+ ],
+ "questions": [
+  "Q1 (E1): Is any line of the side-store original(s) that appears to be a diagnostic (error/assert/traceback/exception/fatal) missing from the in-context text?",
+  "Q2 (E2): Is any diagnostic line altered or truncated relative to the original?",
+  "Q3 (E3): Does the in-context version introduce ambiguity about the original content?",
+  "Q4 (E4): Does the in-context pointer resolve to the attached original(s) (sha match)?",
+  "Verdict: PASS or the error type(s)"
+ ],
+ "answer": ""
+}

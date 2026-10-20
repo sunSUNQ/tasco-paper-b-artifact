@@ -1,0 +1,584 @@
+{
+ "MECHANICAL_ONLY": true,
+ "not_G5_human_review": true,
+ "verdict": "PASS",
+ "sequence_ok": true,
+ "hold": [],
+ "duplicate_runs": {
+  "a302a9c17cfbaba5": 10,
+  "ce499899267508a5": 13,
+  "2e2bda501b5f1865": 7
+ },
+ "samples": [
+  {
+   "sample_id": "S01",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 10,
+   "evidence_run": "a302a9c17cfbaba5",
+   "evidence": {
+    "marker_shas": [
+     "5166823c3001d5b3"
+    ],
+    "content_match": {
+     "5166823c3001d5b3": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "8eea440891e23625"
+   }
+  },
+  {
+   "sample_id": "S02",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 10,
+   "evidence_run": "a302a9c17cfbaba5",
+   "evidence": {
+    "marker_shas": [
+     "5166823c3001d5b3"
+    ],
+    "content_match": {
+     "5166823c3001d5b3": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "96f3c6985aedfe92"
+   }
+  },
+  {
+   "sample_id": "S03",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 10,
+   "evidence_run": "a302a9c17cfbaba5",
+   "evidence": {
+    "marker_shas": [
+     "5166823c3001d5b3"
+    ],
+    "content_match": {
+     "5166823c3001d5b3": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "dea033ed2c9eb075"
+   }
+  },
+  {
+   "sample_id": "S04",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 10,
+   "evidence_run": "a302a9c17cfbaba5",
+   "evidence": {
+    "marker_shas": [
+     "5166823c3001d5b3"
+    ],
+    "content_match": {
+     "5166823c3001d5b3": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "6d1c69511e897cc3"
+   }
+  },
+  {
+   "sample_id": "S05",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 10,
+   "evidence_run": "a302a9c17cfbaba5",
+   "evidence": {
+    "marker_shas": [
+     "5166823c3001d5b3"
+    ],
+    "content_match": {
+     "5166823c3001d5b3": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "a12f53e1c2359aa9"
+   }
+  },
+  {
+   "sample_id": "S06",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 10,
+   "evidence_run": "a302a9c17cfbaba5",
+   "evidence": {
+    "marker_shas": [
+     "5166823c3001d5b3"
+    ],
+    "content_match": {
+     "5166823c3001d5b3": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "990d936ab1e6d797"
+   }
+  },
+  {
+   "sample_id": "S07",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 10,
+   "evidence_run": "a302a9c17cfbaba5",
+   "evidence": {
+    "marker_shas": [
+     "5166823c3001d5b3"
+    ],
+    "content_match": {
+     "5166823c3001d5b3": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "989690a3b4523a9b"
+   }
+  },
+  {
+   "sample_id": "S08",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 10,
+   "evidence_run": "a302a9c17cfbaba5",
+   "evidence": {
+    "marker_shas": [
+     "5166823c3001d5b3"
+    ],
+    "content_match": {
+     "5166823c3001d5b3": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "88b1bd72e52b6294"
+   }
+  },
+  {
+   "sample_id": "S09",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 10,
+   "evidence_run": "a302a9c17cfbaba5",
+   "evidence": {
+    "marker_shas": [
+     "5166823c3001d5b3"
+    ],
+    "content_match": {
+     "5166823c3001d5b3": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "a86c232b10222ae5"
+   }
+  },
+  {
+   "sample_id": "S10",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 10,
+   "evidence_run": "a302a9c17cfbaba5",
+   "evidence": {
+    "marker_shas": [
+     "5166823c3001d5b3"
+    ],
+    "content_match": {
+     "5166823c3001d5b3": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "e07bd13aade9dcda"
+   }
+  },
+  {
+   "sample_id": "S11",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 13,
+   "evidence_run": "ce499899267508a5",
+   "evidence": {
+    "marker_shas": [
+     "0f7965aed9ab2c13"
+    ],
+    "content_match": {
+     "0f7965aed9ab2c13": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "800049c4a3b70a7c"
+   }
+  },
+  {
+   "sample_id": "S12",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 13,
+   "evidence_run": "ce499899267508a5",
+   "evidence": {
+    "marker_shas": [
+     "0f7965aed9ab2c13"
+    ],
+    "content_match": {
+     "0f7965aed9ab2c13": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "0b259c6f3b4918e6"
+   }
+  },
+  {
+   "sample_id": "S13",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 13,
+   "evidence_run": "ce499899267508a5",
+   "evidence": {
+    "marker_shas": [
+     "0f7965aed9ab2c13"
+    ],
+    "content_match": {
+     "0f7965aed9ab2c13": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "962d56d72b428497"
+   }
+  },
+  {
+   "sample_id": "S14",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 13,
+   "evidence_run": "ce499899267508a5",
+   "evidence": {
+    "marker_shas": [
+     "0f7965aed9ab2c13"
+    ],
+    "content_match": {
+     "0f7965aed9ab2c13": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "97ae9e87c5151f12"
+   }
+  },
+  {
+   "sample_id": "S15",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 13,
+   "evidence_run": "ce499899267508a5",
+   "evidence": {
+    "marker_shas": [
+     "0f7965aed9ab2c13"
+    ],
+    "content_match": {
+     "0f7965aed9ab2c13": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "0897bf63bd245107"
+   }
+  },
+  {
+   "sample_id": "S16",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 13,
+   "evidence_run": "ce499899267508a5",
+   "evidence": {
+    "marker_shas": [
+     "0f7965aed9ab2c13"
+    ],
+    "content_match": {
+     "0f7965aed9ab2c13": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "ad976e4f3a535a13"
+   }
+  },
+  {
+   "sample_id": "S17",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 13,
+   "evidence_run": "ce499899267508a5",
+   "evidence": {
+    "marker_shas": [
+     "0f7965aed9ab2c13"
+    ],
+    "content_match": {
+     "0f7965aed9ab2c13": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "08f5a29e88a78443"
+   }
+  },
+  {
+   "sample_id": "S18",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 13,
+   "evidence_run": "ce499899267508a5",
+   "evidence": {
+    "marker_shas": [
+     "0f7965aed9ab2c13"
+    ],
+    "content_match": {
+     "0f7965aed9ab2c13": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "1065c1dcbe63d9ac"
+   }
+  },
+  {
+   "sample_id": "S19",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 13,
+   "evidence_run": "ce499899267508a5",
+   "evidence": {
+    "marker_shas": [
+     "0f7965aed9ab2c13"
+    ],
+    "content_match": {
+     "0f7965aed9ab2c13": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "b0282ef506ad2aac"
+   }
+  },
+  {
+   "sample_id": "S20",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 13,
+   "evidence_run": "ce499899267508a5",
+   "evidence": {
+    "marker_shas": [
+     "0f7965aed9ab2c13"
+    ],
+    "content_match": {
+     "0f7965aed9ab2c13": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "b904b3b74e89f298"
+   }
+  },
+  {
+   "sample_id": "S21",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 13,
+   "evidence_run": "ce499899267508a5",
+   "evidence": {
+    "marker_shas": [
+     "0f7965aed9ab2c13"
+    ],
+    "content_match": {
+     "0f7965aed9ab2c13": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "5c6d9b20a7fd9378"
+   }
+  },
+  {
+   "sample_id": "S22",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 13,
+   "evidence_run": "ce499899267508a5",
+   "evidence": {
+    "marker_shas": [
+     "0f7965aed9ab2c13"
+    ],
+    "content_match": {
+     "0f7965aed9ab2c13": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "636a6e400c775f4f"
+   }
+  },
+  {
+   "sample_id": "S23",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 13,
+   "evidence_run": "ce499899267508a5",
+   "evidence": {
+    "marker_shas": [
+     "0f7965aed9ab2c13"
+    ],
+    "content_match": {
+     "0f7965aed9ab2c13": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "02c851018ba7aa67"
+   }
+  },
+  {
+   "sample_id": "S24",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 8,
+   "evidence_run": "2e2bda501b5f1865",
+   "evidence": {
+    "marker_shas": [
+     "bd911b6f26b1d421"
+    ],
+    "content_match": {
+     "bd911b6f26b1d421": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "57759d698ed3bfda"
+   }
+  },
+  {
+   "sample_id": "S25",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 8,
+   "evidence_run": "2e2bda501b5f1865",
+   "evidence": {
+    "marker_shas": [
+     "bd911b6f26b1d421"
+    ],
+    "content_match": {
+     "bd911b6f26b1d421": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "bf843b522c414f3c"
+   }
+  },
+  {
+   "sample_id": "S26",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 8,
+   "evidence_run": "2e2bda501b5f1865",
+   "evidence": {
+    "marker_shas": [
+     "bd911b6f26b1d421"
+    ],
+    "content_match": {
+     "bd911b6f26b1d421": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "2eddb8997db140ce"
+   }
+  },
+  {
+   "sample_id": "S27",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 8,
+   "evidence_run": "2e2bda501b5f1865",
+   "evidence": {
+    "marker_shas": [
+     "bd911b6f26b1d421"
+    ],
+    "content_match": {
+     "bd911b6f26b1d421": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "5fc901313f9f6ec0"
+   }
+  },
+  {
+   "sample_id": "S28",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 8,
+   "evidence_run": "2e2bda501b5f1865",
+   "evidence": {
+    "marker_shas": [
+     "bd911b6f26b1d421"
+    ],
+    "content_match": {
+     "bd911b6f26b1d421": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "1bd8335ef4aaad59"
+   }
+  },
+  {
+   "sample_id": "S29",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 8,
+   "evidence_run": "2e2bda501b5f1865",
+   "evidence": {
+    "marker_shas": [
+     "bd911b6f26b1d421"
+    ],
+    "content_match": {
+     "bd911b6f26b1d421": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "431a432f8576dc5c"
+   }
+  },
+  {
+   "sample_id": "S30",
+   "MECHANICAL_ONLY": true,
+   "verdict": "PASS",
+   "failed_checks": [],
+   "markers": 1,
+   "store_originals": 8,
+   "evidence_run": "2e2bda501b5f1865",
+   "evidence": {
+    "marker_shas": [
+     "bd911b6f26b1d421"
+    ],
+    "content_match": {
+     "bd911b6f26b1d421": true
+    },
+    "non_marker_lines_contained": true,
+    "blind_hash": "d4b4d653ae9dc083"
+   }
+  }
+ ]
+}

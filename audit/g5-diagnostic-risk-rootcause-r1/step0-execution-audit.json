@@ -1,0 +1,106 @@
+{
+ "total_annotation_attempts": 92,
+ "final_selected_units": 60,
+ "by_round": {
+  "R1-smoke(pre-amendment-1)": {
+   "calls": 12,
+   "valid_outcome": 0,
+   "invalid_outcome": 12,
+   "final_selected": 0,
+   "samples": [
+    "S01",
+    "S02"
+   ]
+  },
+  "R2-smoke(pre-amendment-2)": {
+   "calls": 12,
+   "valid_outcome": 0,
+   "invalid_outcome": 12,
+   "final_selected": 0,
+   "samples": [
+    "S01",
+    "S02"
+   ]
+  },
+  "R3-smoke(pre-amendment-3)": {
+   "calls": 5,
+   "valid_outcome": 4,
+   "invalid_outcome": 1,
+   "final_selected": 0,
+   "samples": [
+    "S01",
+    "S02"
+   ]
+  },
+  "R4-final-smoke(amendment-3 protocol)": {
+   "calls": 4,
+   "valid_outcome": 4,
+   "invalid_outcome": 0,
+   "final_selected": 4,
+   "samples": [
+    "S01",
+    "S02"
+   ]
+  },
+  "R5-main(amendment-3 protocol)": {
+   "calls": 59,
+   "valid_outcome": 56,
+   "invalid_outcome": 3,
+   "final_selected": 56,
+   "samples": [
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15",
+    "S16",
+    "S17",
+    "S18",
+    "S19",
+    "S20",
+    "S21",
+    "S22",
+    "S23",
+    "S24",
+    "S25",
+    "S26",
+    "S27",
+    "S28",
+    "S29",
+    "S30"
+   ]
+  }
+ },
+ "non_final_calls": 32,
+ "non_final_outcomes": {
+  "invalid": 28,
+  "valid_not_selected": 4
+ },
+ "non_final_reasons": {
+  "no_json_extracted": 17,
+  "reviewer_id_mismatch": 9,
+  "valid": 4,
+  "invalid(missing:status)": 2
+ },
+ "amendment_file_mtimes": {
+  "protocol-amendment-1.md": "2026-10-19T15:04:39",
+  "protocol-amendment-2.md": "2026-10-19T15:28:00",
+  "protocol-amendment-3.md": "2026-10-19T15:38:46"
+ },
+ "first_output_with_verdict_visible": "2026-10-19T15:05:23",
+ "amendments_after_verdict_visibility": {
+  "protocol-amendment-1.md": false,
+  "protocol-amendment-2.md": true,
+  "protocol-amendment-3.md": true
+ },
+ "selection_rule": "first valid attempt per (reviewer,sample) under the final frozen protocol (amendment-3); no verdict-content-based retry; 56/60 units (S03-S30) executed entirely under amendment-3 with zero mid-run protocol change; S01/S02 were re-executed under amendment-3 params after mechanical-only amendments",
+ "ledger_vs_results_attempt_mismatch": "none"
+}
